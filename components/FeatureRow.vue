@@ -1,20 +1,40 @@
 <template>
   <section class="module module--row">
     <div class="container">
-      <div class="flex flex-col-reverse  items-center text-left" :class="isReverse ? 'sm:flex-row-reverse' : 'sm:flex-row'">
+      <div
+        class="flex flex-col-reverse items-center text-left"
+        :class="isReverse ? 'sm:flex-row-reverse' : 'sm:flex-row'"
+      >
         <div class="lg:max-w-md">
-          <h2 class="text-2xl lg:text-5xl font-semibold text-gray-900 text-transparent bg-clip-text bg-gradient-to-r from-primary-500 via-purple-500 via-deep-purple-500 to-pink-500 ">
-            <span class="">{{title}}</span>
+          <h2
+            class="
+              text-2xl
+              lg:text-5xl
+              font-semibold
+              text-gray-900 text-transparent
+              bg-clip-text bg-gradient-to-r
+              from-primary-500
+              via-purple-500 via-deep-purple-500
+              to-pink-500
+            "
+          >
+            <span class="">{{ title }}</span>
           </h2>
           <ul class="mt-5 sm:mt-10 list-disc ml-5 text-2xl text-gray-900">
-            <li v-for="(point,index) in points" :key="index" :class="key==0?'':'mt-5'">
-              <h3 class="text-xl font-semibold">{{point.title}}</h3>
-              <p class="text-base mt-2 text-gray-400">{{point.description}}</p>
+            <li
+              v-for="(point, index) in points"
+              :key="index"
+              :class="key == 0 ? '' : 'mt-5'"
+            >
+              <h3 class="text-xl font-semibold">{{ point.title }}</h3>
+              <p class="text-base mt-2 text-gray-400">
+                {{ point.description }}
+              </p>
             </li>
           </ul>
         </div>
         <div class="flex-1">
-          <img :src="'images/'+image" alt="WhatsApp" class="block">
+          <img :src="'/images/' + image" alt="WhatsApp" class="block" />
         </div>
       </div>
     </div>
@@ -22,21 +42,21 @@
 </template>
 <script>
 export default {
-  props:{
+  props: {
     title: String,
     subTitle: String,
     content: String,
     image: String,
     points: Array,
-    isReverse:{
-      type:Boolean,
-      default:false,
+    isReverse: {
+      type: Boolean,
+      default: false
     }
   }
-}
+};
 </script>
 <style lang="scss">
-.module.module--row{
+.module.module--row {
   @apply py-10 sm:py-5;
 }
 </style>

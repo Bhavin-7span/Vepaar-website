@@ -37,7 +37,7 @@
       </div>
     </div>
     <div class="mt-8 -mb-7 lg:-mb-10 max-w-7xl mx-auto">
-      <img :src="'images/' + image" />
+      <img :src="'/images/' + image" />
     </div>
   </section>
 </template>

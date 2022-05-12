@@ -2,7 +2,7 @@
   <component :is="$attrs.href ? 'a' : 'button'" :class="classList">
     <img
       v-if="icon"
-      :src="`images/${icon}`"
+      :src="`/images/${icon}`"
       :alt="title ? title : 'icon'"
       class="mr-2 h-6 lg:h-8"
     />

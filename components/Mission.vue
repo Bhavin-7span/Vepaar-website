@@ -3,7 +3,7 @@
     <div class="container">
       <div class="sm:flex items-center">
         <div class="flex-1">
-          <img src="images/about.jpg" alt="" />
+          <img src="/images/about.jpg" alt="" />
         </div>
         <div class="flex-1 pt-10 sm:pl-20 sm:pt-0">
           <div

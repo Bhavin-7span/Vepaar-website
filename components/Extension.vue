@@ -1,7 +1,7 @@
 <template>
   <div class="flex-1 rounded-xl border-4 border-primary-500 p-5 flex flex-col">
     <div class="flex items-center">
-      <img src="images/extension-purple.svg" alt="" />
+      <img src="/images/extension-purple.svg" alt="" />
       <h3 class="ml-3 text-2xl lg:text-4xl text-gray-900 font-semibold">
         Chrome Extension
       </h3>
@@ -18,7 +18,7 @@
       to start using the Vepaar chrome extension right away.
     </p>
     <a href="javascript:;" class="mt-auto" target="_blank">
-      <img src="images/chrome-web-store.svg" class="h-12 lg:h-16" alt="" />
+      <img src="/images/chrome-web-store.svg" class="h-12 lg:h-16" alt="" />
     </a>
   </div>
 </template>

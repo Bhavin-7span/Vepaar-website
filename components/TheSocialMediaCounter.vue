@@ -3,7 +3,7 @@
     <div class="container">
       <div class="block sm:flex">
         <div class="max-w-2xl">
-          <img src="images/social-media-counter.png" alt="" />
+          <img src="/images/social-media-counter.png" alt="" />
         </div>
         <div class="flex-1 sm:pl-10 text-left sm:text-right mt-10 sm:mt-0">
           <h2

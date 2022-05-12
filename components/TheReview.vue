@@ -19,7 +19,7 @@
         >
           <img
             :src="
-              'images/' +
+              '/images/' +
               review +
               '-' +
               (color == 'light' ? 'dark' : 'light') +

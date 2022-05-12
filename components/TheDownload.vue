@@ -33,7 +33,7 @@
         >
           <div class="flex-1 p-5">
             <div class="flex items-center">
-              <img src="images/desktop-icon.svg" alt="" />
+              <img src="/images/desktop-icon.svg" alt="" />
               <h3 class="ml-3 text-2xl sm:text-4xl text-gray-900 font-semibold">
                 Desktop
               </h3>
@@ -48,7 +48,7 @@
           </div>
           <div class="flex-1">
             <img
-              src="images/desktop-screenshot.png"
+              src="/images/desktop-screenshot.png"
               alt=""
               class="p-4 lg:pt-4 rounded-3xl lg:rounded-none"
             />

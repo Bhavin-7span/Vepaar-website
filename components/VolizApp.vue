@@ -11,7 +11,7 @@
       text-center
     "
   >
-    <img src="images/voliz.svg" alt="" class="h-10 sm:h-16 mx-auto" />
+    <img src="/images/voliz.svg" alt="" class="h-10 sm:h-16 mx-auto" />
     <h2 class="text-gray-900 text-2xl sm:text-4xl my-5 sm:my-10">
       A Unique App for
       <span class="block text-voliz-500 font-extrabold">WhatsApp Poll</span>
@@ -23,10 +23,10 @@
     </p>
     <div class="flex justify-center mt-5 sm:mt-10">
       <a href="javascript:;" target="_blank">
-        <img src="images/playstore.svg" class="h-10 sm:h-16" alt="" />
+        <img src="/images/playstore.svg" class="h-10 sm:h-16" alt="" />
       </a>
       <a href="javascript:;" target="_blank" class="ml-4">
-        <img src="images/app-store.svg" class="h-10 sm:h-16" alt="" />
+        <img src="/images/app-store.svg" class="h-10 sm:h-16" alt="" />
       </a>
     </div>
   </div>

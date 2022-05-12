@@ -10,7 +10,7 @@
     "
   >
     <div class="flex items-center">
-      <img src="images/application.svg" alt="" />
+      <img src="/images/application.svg" alt="" />
       <h3 class="ml-3 text-2xl lg:text-4xl text-gray-900 font-semibold">
         Android / iOS Apps
       </h3>
@@ -23,10 +23,10 @@
     </p>
     <div class="flex">
       <a href="javascript:;" target="_blank">
-        <img src="images/playstore.svg" class="h-12 sm:h-16" alt="" />
+        <img src="/images/playstore.svg" class="h-12 sm:h-16" alt="" />
       </a>
       <a href="javascript:;" target="_blank" class="ml-2">
-        <img src="images/app-store.svg" class="h-12 sm:h-16" alt="" />
+        <img src="/images/app-store.svg" class="h-12 sm:h-16" alt="" />
       </a>
     </div>
   </div>

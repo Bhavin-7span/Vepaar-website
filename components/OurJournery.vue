@@ -18,7 +18,7 @@
               class="journey-box"
             >
               <div v-if="item.icon">
-                <img :src="'images/' + item.icon" />
+                <img :src="'/images/' + item.icon" />
                 <h3
                   class="
                     font-semibold

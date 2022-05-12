@@ -1,7 +1,7 @@
 <template>
   <section
     class="module module--counter"
-    style="background-image: url('@/images/counter-background.jpg')"
+    style="background-image: url('/images/counter-background.jpg')"
   >
     <div class="container">
       <div class="block sm:flex justify-between">

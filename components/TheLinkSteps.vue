@@ -28,7 +28,7 @@
           <div class="link-list">
             <div v-for="(step, index) in steps" :key="index" class="link-card">
               <img
-                :src="'images/' + step.icon"
+                :src="'/images/' + step.icon"
                 alt=""
                 class="link-card__icon"
               />

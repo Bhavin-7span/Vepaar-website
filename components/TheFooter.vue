@@ -5,24 +5,47 @@
         <div class="lg:w-2/5">
           <div class="lg:max-w-xs">
             <nuxt-link to="/">
-              <img src="images/vepaar-logo-white.png" alt="" class="h-8 lg:h-10 max-w-none">
+              <img
+                src="/images/vepaar-logo-white.png"
+                alt=""
+                class="h-8 lg:h-10 max-w-none"
+              />
             </nuxt-link>
-            <p class="text-base text-gray-500 mt-7">Vepaar has the right tools for you to create and run your business page, and seamlessly interact with your customers anytime, anywhere.</p>
+            <p class="text-base text-gray-500 mt-7">
+              Vepaar has the right tools for you to create and run your business
+              page, and seamlessly interact with your customers anytime,
+              anywhere.
+            </p>
           </div>
         </div>
         <div class="mt-10 lg:mt-0 lg:flex-1">
           <div class="grid grid-cols-2 sm:grid-cols-4 gap-5">
-            <FooterLinks v-for="(flink,index) in footerLinks" :key="index" :flink="flink" />
-            <SocialLinks class="col-span-2 sm:col-span-1"/>
+            <FooterLinks
+              v-for="(flink, index) in footerLinks"
+              :key="index"
+              :flink="flink"
+            />
+            <SocialLinks class="col-span-2 sm:col-span-1" />
           </div>
         </div>
       </div>
-      <div class="mt-8 py-8  text-center sm:text-left sm:flex justify-between border-t border-gray-500">
-        <p class="text-base text-gray-400">© 7Span Internet Pvt Ltd. All rights reserved, 2022.</p>
+      <div
+        class="
+          mt-8
+          py-8
+          text-center
+          sm:text-left sm:flex
+          justify-between
+          border-t border-gray-500
+        "
+      >
+        <p class="text-base text-gray-400">
+          © 7Span Internet Pvt Ltd. All rights reserved, 2022.
+        </p>
 
         <div class="inline-flex items-center">
           <span class="text-base text-gray-400 inline-block mr-2">Made in</span>
-          <img src="images/india.svg" alt="">
+          <img src="/images/india.svg" alt="" />
         </div>
       </div>
     </div>
@@ -30,66 +53,66 @@
 </template>
 <script>
 export default {
-  data(){
+  data() {
     return {
-      footerLinks:[
+      footerLinks: [
         {
-          title:"Products",
-          links:[
+          title: "Products",
+          links: [
             {
-              name:'CRM',
-              href:'#'
+              name: "CRM",
+              href: "#"
             },
             {
-              name:'Store',
-              href:'#'
+              name: "Store",
+              href: "#"
             },
             {
-              name:'Polls',
-              href:'#'
+              name: "Polls",
+              href: "#"
             },
             {
-              name:'Link Generator',
-              href:'#'
+              name: "Link Generator",
+              href: "#"
             }
           ]
         },
         {
-          title:"Learn",
-          links:[
+          title: "Learn",
+          links: [
             {
-              name:'User Guide',
-              href:'#'
+              name: "User Guide",
+              href: "#"
             },
             {
-              name:'Video Tutorials',
-              href:'#'
+              name: "Video Tutorials",
+              href: "#"
             },
             {
-              name:'Blog',
-              href:'#'
+              name: "Blog",
+              href: "#"
             },
             {
-              name:'FAQs',
-              href:'#'
+              name: "FAQs",
+              href: "#"
             }
           ]
         },
         {
-          title:"Others",
-          links:[
+          title: "Others",
+          links: [
             {
-              name:'Privacy Policy',
-              href:'#'
+              name: "Privacy Policy",
+              href: "#"
             },
             {
-              name:'Terms of Use',
-              href:'#'
+              name: "Terms of Use",
+              href: "#"
             }
           ]
         }
       ]
-    }
+    };
   }
-}
+};
 </script>

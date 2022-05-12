@@ -2,7 +2,7 @@
   <section class="module module--team">
     <div class="pt-20 pb-32 bg-gray-900">
       <div class="container">
-        <img src="images/team-photo.jpg" alt="" class="rounded-xl" />
+        <img src="/images/team-photo.jpg" alt="" class="rounded-xl" />
         <div class="sm:flex items-center mt-8">
           <h3 class="text-white text-2xl font-semibold sm:px-5">Our Team</h3>
           <p class="flex-1 text-gray-400 mt-5 sm:mt-0">
@@ -20,7 +20,7 @@
         class="px-5"
         :class="index == 0 ? '' : 'mt-20 sm:mt-0'"
       >
-        <img :src="'images/' + team.profile" alt="" class="rounded-xl" />
+        <img :src="'/images/' + team.profile" alt="" class="rounded-xl" />
 
         <div class="my-4">
           <h3 class="text-2xl font-semibold text-gray-900">{{ team.name }}</h3>
@@ -37,7 +37,7 @@
             :class="index == 0 ? '' : 'ml-4'"
             class="transition-all duration-300 hover:-translate-y-1"
           >
-            <img :src="'images/' + link.icon" alt="" />
+            <img :src="'/images/' + link.icon" alt="" />
           </a>
         </div>
       </div>

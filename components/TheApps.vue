@@ -6,7 +6,7 @@
           <slot></slot>
         </div>
         <div class="flex-1 mt-10 sm:mt-0">
-          <img :src="`images/`+image" alt="" class="-ml-5 sm:ml-0">
+          <img :src="`/images/` + image" alt="" class="-ml-5 sm:ml-0" />
         </div>
       </div>
     </div>
@@ -14,8 +14,8 @@
 </template>
 <script>
 export default {
-  props:{
-    image:String
+  props: {
+    image: String
   }
-}
+};
 </script>

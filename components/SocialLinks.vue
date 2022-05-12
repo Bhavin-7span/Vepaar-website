@@ -6,7 +6,7 @@
       :href="social.link"
       :class="index == 0 ? 'inline-flex' : 'block ml-2 sm:ml-0 sm:mt-4'"
     >
-      <img :src="'images/' + social.icon" alt="" class="w-8" />
+      <img :src="'/images/' + social.icon" alt="" class="w-8" />
     </a>
   </div>
 </template>

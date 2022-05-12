@@ -68,7 +68,7 @@
                 <tr>
                   <th colspan="5" class="text-left">
                     <div class="inline-flex items-center thead-title">
-                      <img :src="'images/' + table.icon" alt="" />
+                      <img :src="'/images/' + table.icon" alt="" />
                       <span class="pl-3 text-2xl">{{ table.title }}</span>
                     </div>
                   </th>
