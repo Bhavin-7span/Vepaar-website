@@ -11,7 +11,8 @@
             w-60
             px-5
             h-14
-            flex
+            flex flex-col
+            sm:flex-row
             justify-center
             items-center
             bg-gray-100
@@ -127,7 +128,7 @@ export default {
 };
 </script>
 <style lang="scss">
-.plan-list{
+.plan-list {
   @apply block lg:flex;
 }
 .tab-button {

@@ -11,7 +11,7 @@
                 class="h-8 lg:h-10 max-w-none"
               />
             </nuxt-link>
-            <p class="text-base text-gray-500 mt-7">
+            <p class="text-sm sm:text-base text-gray-500 mt-7">
               Vepaar has the right tools for you to create and run your business
               page, and seamlessly interact with your customers anytime,
               anywhere.
@@ -39,12 +39,14 @@
           border-t border-gray-500
         "
       >
-        <p class="text-base text-gray-400">
+        <p class="text-sm sm:text-base text-gray-400">
           © 7Span Internet Pvt Ltd. All rights reserved, 2022.
         </p>
 
         <div class="inline-flex items-center">
-          <span class="text-base text-gray-400 inline-block mr-2">Made in</span>
+          <span class="text-sm sm:text-base text-gray-400 inline-block mr-2"
+            >Made in</span
+          >
           <img src="/images/india.svg" alt="" />
         </div>
       </div>

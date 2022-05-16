@@ -28,7 +28,7 @@
           v-for="(feature, index) in features"
           :key="index"
           :feature="feature"
-        ></FeatureCardRow>
+        />
       </div>
       <div
         v-else
@@ -43,7 +43,7 @@
           v-for="(feature, index) in features"
           :key="index"
           :feature="feature"
-        ></FeatureCard>
+        />
       </div>
     </div>
   </section>

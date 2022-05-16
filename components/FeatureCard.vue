@@ -13,7 +13,9 @@
         </h3>
       </div>
     </div>
-    <p class="text-gray-400 text-lg mt-3">{{ feature.text }}</p>
+    <p class="text-gray-400 mt-3 text-sm sm:text-base lg:text-lg">
+      {{ feature.text }}
+    </p>
   </div>
 </template>
 <script>

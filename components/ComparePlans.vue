@@ -2,8 +2,8 @@
   <div class="py-12 border-t border-gray-100">
     <div class="container">
       <div class="flex">
-        <div class="w-2/6"></div>
-        <div class="w-2/3">
+        <div class="hidden sm:block w-2/6"></div>
+        <div class="w-full sm:w-2/3">
           <h2 class="max-w-3xl ml-auto text-4xl font-semibold pl-2">
             Compare Plans
           </h2>
@@ -31,11 +31,13 @@
         </tr>
         <tr class="responsive-thead lg:hidden">
           <th colspan="5" :class="plans[selectedPlan].title + '-plan'">
-            <div class="flex justify-between items-center relative z-10">
-              <h3 class="capitalize m-0">{{ plans[selectedPlan].title }}</h3>
+            <div class="flex justify-between items-center relative z-10 mb-2">
+              <h3 class="text-lg capitalize m-0">
+                {{ plans[selectedPlan].title }}
+              </h3>
               <select
                 v-model="selectedPlan"
-                class="capitalize block px-4 border border-gray-400 rounded"
+                class="capitalize block p-2 border border-gray-400 rounded"
               >
                 <option
                   v-for="(plan, index) in plans"

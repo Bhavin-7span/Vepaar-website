@@ -9,7 +9,9 @@
           >
             {{ title }}
           </h2>
-          <p class="text-lg text-white">{{ description }}</p>
+          <p class="text-base font-light sm:font-normal sm:text-lg text-white">
+            {{ description }}
+          </p>
         </div>
         <div class="w-60 lg:w-80 lg:max-w-xs mt-5">
           <div class="flex items-center lg:justify-end mb-2">
