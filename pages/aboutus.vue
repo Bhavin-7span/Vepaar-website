@@ -2,7 +2,7 @@
   <!-- Hero Section: Start -->
   <TheHero
     title="About Us"
-    subTitle="to have an online presence."
+    subTitle="The Story Behind Our Story"
     isHeightAuto
   ></TheHero>
   <!-- Hero Section: End -->
@@ -34,8 +34,8 @@
   <!-- The CTA: Start -->
   <TheCta
     tagline="Trusted by 100k+ Business Worldwide"
-    title="Get Started with Vepaar today!"
-    description="One of the best free apps for small business owners! With our powerful yet simple tools, bring your store to the global platform at ease."
+    title="Why not join us in our splendid journey?"
+    description="A team of graduates that began with a common vision back in 2015 has reached great heights. Thanks to the support of our clients, we get to serve over 100k users."
   />
   <!-- The CTA: End -->
 </template>

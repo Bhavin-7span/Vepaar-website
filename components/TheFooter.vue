@@ -63,15 +63,15 @@ export default {
           links: [
             {
               name: "CRM",
-              href: "#"
+              href: "/crm"
             },
             {
               name: "Store",
-              href: "#"
+              href: "/store"
             },
             {
               name: "Polls",
-              href: "#"
+              href: "/polls"
             },
             {
               name: "Link Generator",

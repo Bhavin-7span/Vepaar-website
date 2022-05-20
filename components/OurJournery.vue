@@ -2,7 +2,7 @@
   <section class="module module--journey">
     <div class="container">
       <h2 class="text-4xl sm:text-5xl text-gray-900 font-semibold">
-        Our Journey So Far
+        Our Journey
       </h2>
       <div class="mt-10 sm:mt-20">
         <div class="journey-card" v-for="(data, index) in journey" :key="index">
@@ -93,18 +93,18 @@ export default {
           content: [
             {
               icon: "idea-icon.svg",
-              title: "Project Idea",
+              title: "Not just another idea/An idea that changed our lives!",
               description: [
-                "We started this project with the idea of posting cricket score updates on WhatsApp.",
-                "After finalizing various on-demand services on WhatsApp, we had decided upon the idea to setup BOT to send responses based on the #Hashtags sent from users, such as #cricket, #news, #weather, and so on."
+                "We’re cricket enthusiasts and we're looking for a way to post score updates on WhatsApp. Voila! We’re here now with a tool that helps many.",
+                "Once we decided on WhatsApp as our platform, we went ahead and designed a BOT that works on #Hashtags of consumers such as #cricket, #news #weather…you get the gist."
               ],
               date: "Jan 2015"
             },
             {
               icon: "featured-icon.svg",
-              title: "Got Featured on TechCrunch",
+              title: "TechCrunch Feature!",
               description: [
-                "In the article titled ‘A Virtual Assistant To WhatsApp’, WhatsHash got featured on TechCrunch and got good visibility in the realm of WhatsApp Marketing services."
+                "We made it to TechCrunch, “A Virtual Assistant to WhatsApp” and the great visibility led us to expand our Bot to WhatsApp Marketing services."
               ],
               date: "Dec 2015"
             }
@@ -114,15 +114,15 @@ export default {
           year: 2019,
           content: [
             {
-              title: "10k+ Users",
+              title: "10K+ people liked us!",
               description:
-                "Achieving a Goal. We started this project with the idea of posting cricket score updates on WhatsApp."
+                "Our first milestone in the journey! The cricket score updates gained popularity and spread the word about an ultra-cool platform in town.. That’s us!)"
             },
             {
               icon: "cart.svg",
-              title: "Store on WhatsApp",
+              title: "WhatsApp Store",
               description: [
-                "Along with many updates, we released the Online Store on WhatsApp. Thus, WhatsHash became the first ever solution provider to help brands bring their eCommerce stores to their customers’ WhatsApp texts."
+                "Our WhatsApp Store went online, making us one of a kind and first in this industry. With WhatsHash we were set to revolutionize how brands can connect their stores to consumers via WhatsApp texts."
               ],
               date: "Jan 2019"
             }
@@ -133,9 +133,9 @@ export default {
           content: [
             {
               icon: "rebranding.svg",
-              title: "Rebranding to Vepaar",
+              title: "Veepar is born!",
               description: [
-                "WhatsHash has evolved constantly over the years. Yet, we wanted to kickstart 2021 with a brand new identity; one that would reflect our journey of helping businesses succeed on WhatsApp and also describe who we are as a company. So, say hello to Vepaar!"
+                "We were constantly taking notes and ever-evolving. We wanted to start the year off with a bang, and in 2021, we created a whole new identity that reflected all we have done to support the growth of business on WhatsApp and tell consumers about our authentic selves. A star is born- Veepar!"
               ],
               date: "Apr 2021"
             }
@@ -145,9 +145,9 @@ export default {
           year: 2022,
           content: [
             {
-              title: "100k+ Users",
+              title: "100k+ Users onboarded!",
               description:
-                "Achieving a Goal. We started this project with the idea of posting cricket score updates on WhatsApp."
+                "We’ve been growing and reached a staggering 100k+ users. A milestone that speaks for itself. Veepar is always evolving, and we’re here to bring the best WhatsApp Marketing Services for you to scale like never before."
             }
           ]
         }

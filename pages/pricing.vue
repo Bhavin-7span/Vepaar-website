@@ -21,6 +21,10 @@
   <TheFaq :faqs="faqs" />
   <!-- FAQ : End -->
 
+  <!-- Request : Start -->
+  <TheRequest />
+  <!-- Request : End -->
+
   <!-- Clients Logo: Start -->
   <TheClients />
   <!-- Clients Logo: End -->

@@ -13,12 +13,11 @@
           to-pink-500
         "
       >
-        How do you create a poll?
+        Making a poll is easy!
       </h2>
-      <p class="text-gray-400 text-center text-base mt-5">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem purus
-        ultrices amet posuere placerat. Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Lorem purus ultrices amet posuere placerat.
+      <p class="text-gray-400 text-center text-base mt-5 max-w-lg mx-auto">
+        Polls are an easy and powerful way to learn more about consumer
+        behavior. You can do this in a few simple steps.
       </p>
 
       <div class="step-list">
@@ -39,32 +38,30 @@ export default {
         {
           icon: "create.svg",
           title: "Create",
-          description:
-            "Write a poll question, provide the options, and configure the poll settings."
+          description: "Add your question and options to configure your poll."
         },
         {
           icon: "share.svg",
           title: "Share",
           description:
-            "Forward the poll to your desired audience, depending on your requirements."
+            "Forward the poll to your target audience to get them voting."
         },
         {
           icon: "collect.svg",
           title: "Collect",
-          description:
-            "Start receiving real-time votes on WhatsApp which will be reflected live on the poll result page."
+          description: "Get real-time data about what your audience likes."
         },
         {
           icon: "analyse.svg",
-          title: "Analyse",
+          title: "Analyze",
           description:
-            "Analyze the statistics of the data after the poll results are received. Compare the results and get idea of what your customers want."
+            "Use data to drive your upcoming campaigns for better success rates."
         },
         {
           icon: "export.svg",
           title: "Export",
           description:
-            "Share the results in WhatsApp and also other platforms and let your customers know the results too."
+            "Share the results with your consumers with easy export options."
         }
       ]
     };
@@ -89,7 +86,7 @@ export default {
     @apply text-xl sm:text-2xl font-semibold text-gray-500 my-2;
   }
   &__text {
-    @apply max-w-sm text-gray-500;
+    @apply max-w-xs text-gray-500;
   }
   &::before {
     content: "";

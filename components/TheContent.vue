@@ -4,7 +4,7 @@
       <div
         class="
           sm:max-w-md
-          lg:max-w-2xl lg:my-12
+          lg:max-w-3xl lg:my-12
           mx-auto
           text-left
           lg:text-center
@@ -33,7 +33,7 @@
         <p class="my-5 lg:my-6 text-sm sm:text-base lg:text-lg text-gray-400">
           {{ content }}
         </p>
-        <the-button size="lg"> Get Started Now </the-button>
+        <the-button size="lg" v-if="ctaButton"> Get Started Now </the-button>
       </div>
     </div>
     <div class="mt-8 -mb-7 lg:-mb-10 max-w-7xl mx-auto">
@@ -47,7 +47,11 @@ export default {
     title: String,
     subTitle: String,
     content: String,
-    image: String
+    image: String,
+    ctaButton: {
+      default: true,
+      type: Boolean
+    }
   }
 };
 </script>

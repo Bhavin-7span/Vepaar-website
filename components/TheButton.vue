@@ -126,7 +126,8 @@ export default {
     content: "";
     @apply absolute bottom-0 right-0 left-0 w-0 h-[1px] bg-white lg:static lg:h-0 mx-auto transition-all duration-300;
   }
-  &:hover {
+  &:hover,
+  &.router-link-active {
     @apply lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r from-primary-500 via-purple-500 via-deep-purple-500 to-pink-500;
     &::after {
       @apply w-full transition-all transition-all duration-300;

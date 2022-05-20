@@ -12,6 +12,8 @@ declare module 'vue' {
     'OurJournery': typeof import("../components/OurJournery.vue")['default'],
     'PlanCard': typeof import("../components/PlanCard.vue")['default'],
     'PricingTab': typeof import("../components/PricingTab.vue")['default'],
+    'PrivacyContent': typeof import("../components/PrivacyContent.vue")['default'],
+    'RequestCard': typeof import("../components/RequestCard.vue")['default'],
     'SocialLinks': typeof import("../components/SocialLinks.vue")['default'],
     'SupportCard': typeof import("../components/SupportCard.vue")['default'],
     'Team': typeof import("../components/Team.vue")['default'],
@@ -32,6 +34,7 @@ declare module 'vue' {
     'TheLinkSteps': typeof import("../components/TheLinkSteps.vue")['default'],
     'TheNavigation': typeof import("../components/TheNavigation.vue")['default'],
     'ThePollSteps': typeof import("../components/ThePollSteps.vue")['default'],
+    'TheRequest': typeof import("../components/TheRequest.vue")['default'],
     'TheReview': typeof import("../components/TheReview.vue")['default'],
     'TheRow': typeof import("../components/TheRow.vue")['default'],
     'TheSocialMediaCounter': typeof import("../components/TheSocialMediaCounter.vue")['default'],
@@ -63,6 +66,8 @@ declare module 'vue' {
     'LazyOurJournery': typeof import("../components/OurJournery.vue")['default'],
     'LazyPlanCard': typeof import("../components/PlanCard.vue")['default'],
     'LazyPricingTab': typeof import("../components/PricingTab.vue")['default'],
+    'LazyPrivacyContent': typeof import("../components/PrivacyContent.vue")['default'],
+    'LazyRequestCard': typeof import("../components/RequestCard.vue")['default'],
     'LazySocialLinks': typeof import("../components/SocialLinks.vue")['default'],
     'LazySupportCard': typeof import("../components/SupportCard.vue")['default'],
     'LazyTeam': typeof import("../components/Team.vue")['default'],
@@ -83,6 +88,7 @@ declare module 'vue' {
     'LazyTheLinkSteps': typeof import("../components/TheLinkSteps.vue")['default'],
     'LazyTheNavigation': typeof import("../components/TheNavigation.vue")['default'],
     'LazyThePollSteps': typeof import("../components/ThePollSteps.vue")['default'],
+    'LazyTheRequest': typeof import("../components/TheRequest.vue")['default'],
     'LazyTheReview': typeof import("../components/TheReview.vue")['default'],
     'LazyTheRow': typeof import("../components/TheRow.vue")['default'],
     'LazyTheSocialMediaCounter': typeof import("../components/TheSocialMediaCounter.vue")['default'],
@@ -116,6 +122,8 @@ export const Mission: typeof import("../components/Mission.vue")['default']
 export const OurJournery: typeof import("../components/OurJournery.vue")['default']
 export const PlanCard: typeof import("../components/PlanCard.vue")['default']
 export const PricingTab: typeof import("../components/PricingTab.vue")['default']
+export const PrivacyContent: typeof import("../components/PrivacyContent.vue")['default']
+export const RequestCard: typeof import("../components/RequestCard.vue")['default']
 export const SocialLinks: typeof import("../components/SocialLinks.vue")['default']
 export const SupportCard: typeof import("../components/SupportCard.vue")['default']
 export const Team: typeof import("../components/Team.vue")['default']
@@ -136,6 +144,7 @@ export const TheLinkForm: typeof import("../components/TheLinkForm.vue")['defaul
 export const TheLinkSteps: typeof import("../components/TheLinkSteps.vue")['default']
 export const TheNavigation: typeof import("../components/TheNavigation.vue")['default']
 export const ThePollSteps: typeof import("../components/ThePollSteps.vue")['default']
+export const TheRequest: typeof import("../components/TheRequest.vue")['default']
 export const TheReview: typeof import("../components/TheReview.vue")['default']
 export const TheRow: typeof import("../components/TheRow.vue")['default']
 export const TheSocialMediaCounter: typeof import("../components/TheSocialMediaCounter.vue")['default']
@@ -167,6 +176,8 @@ export const LazyMission: typeof import("../components/Mission.vue")['default']
 export const LazyOurJournery: typeof import("../components/OurJournery.vue")['default']
 export const LazyPlanCard: typeof import("../components/PlanCard.vue")['default']
 export const LazyPricingTab: typeof import("../components/PricingTab.vue")['default']
+export const LazyPrivacyContent: typeof import("../components/PrivacyContent.vue")['default']
+export const LazyRequestCard: typeof import("../components/RequestCard.vue")['default']
 export const LazySocialLinks: typeof import("../components/SocialLinks.vue")['default']
 export const LazySupportCard: typeof import("../components/SupportCard.vue")['default']
 export const LazyTeam: typeof import("../components/Team.vue")['default']
@@ -187,6 +198,7 @@ export const LazyTheLinkForm: typeof import("../components/TheLinkForm.vue")['de
 export const LazyTheLinkSteps: typeof import("../components/TheLinkSteps.vue")['default']
 export const LazyTheNavigation: typeof import("../components/TheNavigation.vue")['default']
 export const LazyThePollSteps: typeof import("../components/ThePollSteps.vue")['default']
+export const LazyTheRequest: typeof import("../components/TheRequest.vue")['default']
 export const LazyTheReview: typeof import("../components/TheReview.vue")['default']
 export const LazyTheRow: typeof import("../components/TheRow.vue")['default']
 export const LazyTheSocialMediaCounter: typeof import("../components/TheSocialMediaCounter.vue")['default']

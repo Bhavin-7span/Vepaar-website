@@ -1,14 +1,14 @@
 <template>
   <!-- Hero Section: Start -->
   <TheHero
-    title="WhatsApp Link"
-    subTitle="in a Single Click"
+    title="WhatsApp Link Generator"
+    subTitle="Get your own WhatsApp Link"
     isHeightAuto
   ></TheHero>
   <!-- Hero Section: End -->
 
   <!-- LinkForm: Start -->
-  <TheLinkForm />
+  <TheLinkForm id="whatsapp-link" />
   <!-- LinkForm: End -->
 
   <!-- SocialMedia Counter: Start -->
@@ -30,8 +30,9 @@
   <!-- The CTA: Start -->
   <TheCta
     tagline="Trusted by 100k+ Business Worldwide"
-    title="Get Started with Vepaar today!"
-    description="One of the best free apps for small business owners! With our powerful yet simple tools, bring your store to the global platform at ease."
+    title="Create & Share your WhatsApp link"
+    description="Create a WhatsApp link for your business in just 3 simple steps and get more customer to your WhatsApp."
+    getStarted
   />
   <!-- The CTA: End -->
 </template>
@@ -67,3 +68,8 @@ export default {
   }
 };
 </script>
+<style lang="scss">
+html {
+  scroll-behavior: smooth;
+}
+</style>

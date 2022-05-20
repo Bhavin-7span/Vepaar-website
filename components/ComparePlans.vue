@@ -32,9 +32,7 @@
         <tr class="responsive-thead lg:hidden">
           <th colspan="5" :class="plans[selectedPlan].title + '-plan'">
             <div class="flex justify-between items-center relative z-10 mb-2">
-              <h3 class="text-lg capitalize m-0">
-                {{ plans[selectedPlan].title }}
-              </h3>
+              <h3 class="text-lg capitalize m-0">Plans</h3>
               <select
                 v-model="selectedPlan"
                 class="capitalize block p-2 border border-gray-400 rounded"
@@ -485,10 +483,10 @@ export default {
         background: #fff;
         content: "";
         height: 126px;
-        left: -50%;
+        left: -500px;
         position: absolute;
         top: 0;
-        width: 50%;
+        width: 500px;
         @apply border-b border-gray-100 hidden lg:block;
       }
     }
@@ -497,10 +495,10 @@ export default {
         background: #fff;
         content: "";
         height: 126px;
-        right: -50%;
+        right: -500px;
         position: absolute;
         top: 0;
-        width: 50%;
+        width: 500px;
         @apply border-b border-gray-100;
       }
     }

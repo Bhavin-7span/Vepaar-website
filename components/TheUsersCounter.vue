@@ -4,7 +4,7 @@
     style="background-image: url('/images/counter-background.jpg')"
   >
     <div class="container">
-      <div class="block sm:flex justify-between">
+      <div class="block sm:flex justify-around">
         <div
           v-for="(counter, index) in counters"
           :key="index"

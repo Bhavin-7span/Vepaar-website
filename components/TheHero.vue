@@ -4,7 +4,7 @@
     :class="isHeightAuto ? 'module--hero-auto' : ''"
   >
     <div class="container h-full flex items-center">
-      <div class="max-w-lg">
+      <div class="max-w-lg" :class="isCenter ? 'mx-auto text-center' : ''">
         <h2
           class="
             text-3xl
@@ -25,12 +25,12 @@
         </h3>
         <p
           v-if="textContent"
-          class="mt-8 text-gray-500 text-sm sm:text-base lg:text-lg"
+          class="mt-8 text-gray-400 text-sm sm:text-base lg:text-lg"
         >
           {{ textContent }}
         </p>
-        <div v-if="href !== ''" class="mt-10">
-          <the-button color="primary">Get Started Now</the-button>
+        <div v-if="link !== ''" class="mt-10">
+          <the-button color="primary" :title="buttonLabel"></the-button>
         </div>
       </div>
     </div>
@@ -42,12 +42,20 @@ export default {
     title: String,
     subTitle: String,
     textContent: String,
-    href: {
+    link: {
       default: "",
       type: String
     },
     isHeightAuto: {
       default: false,
+      type: Boolean
+    },
+    isCenter: {
+      default: false,
+      type: Boolean
+    },
+    buttonLabel: {
+      default: "Get Started Now",
       type: Boolean
     }
   }

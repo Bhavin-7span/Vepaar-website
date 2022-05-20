@@ -13,27 +13,36 @@
             {{ description }}
           </p>
         </div>
-        <div class="w-60 lg:w-80 lg:max-w-xs mt-5">
-          <div class="flex items-center lg:justify-end mb-2">
-            <label class="block text-white">Available On:</label>
-            <div class="flex">
-              <a
-                :href="link.href"
-                v-for="(link, index) in downloadLinks"
-                :key="index"
-                class="w-8 h-8 flex items-center justify-center"
-              >
-                <img
-                  :src="'/images/' + link.icon"
-                  alt=""
-                  class="object-contain object-center"
-                />
-              </a>
-            </div>
-          </div>
-          <the-button color="white" class="w-full justify-center"
-            >Sign Up for Free!</the-button
+        <div class="w-64 lg:max-w-xs mt-5">
+          <the-button
+            v-if="getStarted"
+            href="#whatsapp-link"
+            color="white"
+            class="w-full justify-center"
+            >Get Started Now!</the-button
           >
+          <div v-else>
+            <div class="flex items-center lg:justify-end mb-2">
+              <label class="block text-white">Available On:</label>
+              <div class="flex">
+                <a
+                  :href="link.href"
+                  v-for="(link, index) in downloadLinks"
+                  :key="index"
+                  class="w-8 h-8 flex items-center justify-center"
+                >
+                  <img
+                    :src="'/images/' + link.icon"
+                    alt=""
+                    class="object-contain object-center"
+                  />
+                </a>
+              </div>
+            </div>
+            <the-button color="white" class="w-full justify-center"
+              >Sign Up for Free!</the-button
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -44,7 +53,11 @@ export default {
   props: {
     tagline: String,
     title: String,
-    description: String
+    description: String,
+    getStarted: {
+      default: false,
+      type: Boolean
+    }
   },
   data() {
     return {

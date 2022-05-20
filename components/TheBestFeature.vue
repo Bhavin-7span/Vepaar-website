@@ -14,11 +14,14 @@
             from-primary-500
             via-purple-500 via-deep-purple-500
             to-pink-500
+            block
           "
-          >{{ subTitle }}</span
-        >
+          v-html="subTitle"
+        ></span>
       </h2>
-      <p class="text-gray-400 text-sm sm:text-base mt-5">{{ content }}</p>
+      <p class="text-gray-400 text-sm sm:text-lg mt-5 max-w-3xl">
+        {{ content }}
+      </p>
 
       <div
         v-if="isFeatureRow"
@@ -32,11 +35,11 @@
       </div>
       <div
         v-else
-        class="grid gap-8 mt-10 lg:mt-20"
+        class="grid gap-14 mt-10 lg:mt-20"
         :class="
           cols2
             ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-2'
-            : 'grid-cols-1 sm:grid-cols-2'
+            : 'grid-cols-1 sm:grid-cols-3'
         "
       >
         <FeatureCard
@@ -59,7 +62,7 @@ export default {
       type: Boolean,
       default: false
     },
-    cols3: {
+    cols2: {
       type: Boolean,
       default: false
     }

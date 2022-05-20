@@ -1,12 +1,16 @@
 <template>
   <!-- Hero Section: Start -->
-  <TheHero title="One-stop solution" subTitle="to managing your business" textContent="Without any possible doubt, reaching out to customers via WhatsApp is the next big thing in business! Vepaar provides you with the essential tools that allow you to manage your business effortlessly without diving deep into the technicalities. 
-"></TheHero>
+  <TheHero
+    title="One-stop solution"
+    subTitle="to managing your business"
+    textContent="Without any possible doubt, reaching out to customers via WhatsApp is the next big thing in business! Vepaar provides you with the essential tools that allow you to manage your business effortlessly without diving deep into the technicalities. 
+"
+    link="#"
+  ></TheHero>
   <!-- Hero Section: End -->
 
-
   <!-- Content Section: Start -->
-  <TheContent 
+  <TheContent
     title="WhatsApp CRM"
     subTitle="Use WhatsApp to expand your business"
     content="Allow your business to reap the benefits of the most commonly used messaging apps in the world."
@@ -16,10 +20,11 @@
 
   <!-- Best Feature Section: Start -->
   <TheBestFeature
-    title="We acknowledge your business needs thus bring forth the most"
-    subTitle="remarkable feature WhatsApp has to offer"
+    title="We acknowledge your business needs thus bring"
+    subTitle="forth the most remarkable feature <br/>WhatsApp has to offer"
     content="Vepaar provides you with a wide range of WhatsApp CRM features that you can use to take your business to the next level. Be it creating customer profiles, sending personalized replies, saving messages, or creating your entire online business page, Vepaar has it all.  
-"   :isFeatureRow="true"
+"
+    :isFeatureRow="true"
     :features="features1"
   />
   <!-- Best Feature Section: End -->
@@ -29,14 +34,13 @@
   <!-- Review Section: End -->
 
   <!-- Content Section: Start -->
-  <TheContent 
+  <TheContent
     title="Selling Made Easy"
     subTitle="Vepaar store makes everything easy for your online business"
     content="Many easy selling features are made available for you"
     image="admin-panel.jpg"
   />
   <!-- Content Section: End -->
-
 
   <!-- Best Feature Section: Start -->
   <TheBestFeature
@@ -86,56 +90,64 @@
 <script>
 // This will also work in `<script setup>`
 definePageMeta({
-  layout: "default",
+  layout: "default"
 });
 export default {
-  data(){
-    return{
-      features1:[
+  data() {
+    return {
+      features1: [
         {
-          icon:"reply-icon.svg",
-          title:"Customer Profile",
-          text:"Build your customer profile so that we have a record of your details and the conversations we have had in the past."
+          icon: "book-account.svg",
+          title: "Customer Profile",
+          text:
+            "Build your customer profile so that we have a record of your details and the conversations we have had in the past."
         },
         {
-          icon:"reply-icon.svg",
-          title:"Sales Funnels/Tags",
-          text:"Sales Funnels allow you to filter your leads as per some funnel stages. The feature has proven to be effective in converting your leads to customers."
+          icon: "tags-icon.svg",
+          title: "Sales Funnels/Tags",
+          text:
+            "Sales Funnels allow you to filter your leads as per some funnel stages. The feature has proven to be effective in converting your leads to customers."
         },
         {
-          icon:"reply-icon.svg",
-          title:"AutoSave Chat",
-          text:"This feature helps you Sync the WhatsApp chat of any customer or group. You can view these chats or media files from your Vepaar account."
+          icon: "bookmark-icon.svg",
+          title: "AutoSave Chat",
+          text:
+            "This feature helps you Sync the WhatsApp chat of any customer or group. You can view these chats or media files from your Vepaar account."
         },
         {
-          icon:"reply-icon.svg",
-          title:"Ticket & Activity Management",
-          text:"Manage your customer tickets easily and ensure seamless customer support. Prioritize tickets and update their status effortlessly."
+          icon: "flag-icon.svg",
+          title: "Ticket & Activity Management",
+          text:
+            "Manage your customer tickets easily and ensure seamless customer support. Prioritize tickets and update their status effortlessly."
         }
       ],
-      features2:[
+      features2: [
         {
-          icon:"reply-icon.svg",
-          title:"Variable/Digital Products",
-          text:"Allow a set of variations on a product while configuring a number of variables at your convenience. Vepaar even facilitates to sell digital products like eBooks, licenses, etc."
+          icon: "reply-icon.svg",
+          title: "Variable/Digital Products",
+          text:
+            "Allow a set of variations on a product while configuring a number of variables at your convenience. Vepaar even facilitates to sell digital products like eBooks, licenses, etc."
         },
         {
-          icon:"reply-icon.svg",
-          title:"Checkout Configurations",
-          text:"Now, you can have your custom-made checkout page where you can add new steps and reduce some. "
+          icon: "reply-icon.svg",
+          title: "Checkout Configurations",
+          text:
+            "Now, you can have your custom-made checkout page where you can add new steps and reduce some. "
         },
         {
-          icon:"reply-icon.svg",
-          title:"Inventory Management",
-          text:"Keep track of your products and their stock from anywhere with the most efficient inventory management features. "
+          icon: "reply-icon.svg",
+          title: "Inventory Management",
+          text:
+            "Keep track of your products and their stock from anywhere with the most efficient inventory management features. "
         },
         {
-          icon:"reply-icon.svg",
-          title:"Multiple Payment Integrations",
-          text:"Your customers can have the luxury of choosing from a list of payment gateways from your online shop."
+          icon: "reply-icon.svg",
+          title: "Multiple Payment Integrations",
+          text:
+            "Your customers can have the luxury of choosing from a list of payment gateways from your online shop."
         }
       ]
-    }
+    };
   }
-}
+};
 </script>

@@ -2,7 +2,13 @@
   <section class="module module--row bg-gray-100">
     <div class="container">
       <div
-        class="flex flex-col-reverse sm:flex-row items-center text-left"
+        class="
+          flex flex-col-reverse
+          sm:flex-row
+          items-center
+          text-left
+          justify-between
+        "
         :class="isReverse ? 'sm:flex-row-reverse text-left sm:text-right' : ''"
       >
         <div class="max-w-xs lg:max-w-md">
@@ -25,13 +31,8 @@
           <p class="text-gray-400 my-5 lg:my-8">{{ content }}</p>
           <the-button>Get Started Now</the-button>
         </div>
-        <div class="flex-1">
-          <img
-            :src="'/images/' + image"
-            alt="WhatsApp"
-            class="block"
-            :class="isReverse ? 'sm:-ml-16' : 'sm:-mr-10'"
-          />
+        <div class="flex-1" :class="isReverse ? '-ml-[10%]' : '-mr-[8.5%]'">
+          <img :src="'/images/' + image" alt="WhatsApp" class="block w-full" />
         </div>
       </div>
     </div>

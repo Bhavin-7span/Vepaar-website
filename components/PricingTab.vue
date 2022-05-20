@@ -4,7 +4,7 @@
       <h2 class="text-gray-900 text-center text-3xl font-semibold">
         Choose the right plan for you.
       </h2>
-      <div class="flex justify-center mt-10">
+      <div class="flex justify-center mt-20">
         <div
           v-for="(tab, index) in tabs"
           class="
@@ -51,36 +51,32 @@ export default {
       tabActive: "annual",
       monthly: [
         {
-          title: "Free",
+          title: "free",
           text: "For Business Starters",
           price: "$0.00",
           notes: "*All prices are exclusive of taxes.",
-          link: "#",
-          color: "free-plan"
+          link: "#"
         },
         {
-          title: "Basic",
+          title: "basic",
           text: "For Business Starters",
           price: "$4.99",
           notes: "*All prices are exclusive of taxes.",
-          link: "#",
-          color: "basic-plan"
+          link: "#"
         },
         {
-          title: "Pro",
+          title: "pro",
           text: "For Business Starters",
           price: "$14.99",
           notes: "*All prices are exclusive of taxes.",
-          link: "#",
-          color: "pro-plan"
+          link: "#"
         },
         {
-          title: "Agency",
+          title: "agency",
           text: "For Business Starters",
           price: "$29.99",
           notes: "*All prices are exclusive of taxes.",
-          link: "#",
-          color: "agency-plan"
+          link: "#"
         }
       ],
       annual: [
@@ -137,7 +133,42 @@ export default {
     @apply bg-accent-100 text-white relative z-10;
   }
   & + .tab-button {
-    @apply -ml-1;
+    @apply -ml-1 relative;
+    &::before {
+      content: "";
+      top: -40px;
+      width: 80px;
+      height: 40px;
+      right: -20px;
+      background-image: url("/images/curve-arrow.png");
+      background-size: contain;
+      position: absolute;
+      background-repeat: no-repeat;
+    }
+    &::after {
+      content: "Save 16%";
+      background: #fff2cc;
+      color: #ff9800;
+      padding: 5px 7px;
+      font-size: 14px;
+      position: absolute;
+      top: -75px;
+      right: -60px;
+      display: block;
+      border-radius: 5px;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .tab-button {
+    & + .tab-button {
+      &::before {
+        right: 30px;
+      }
+      &::after {
+        right: 10px;
+      }
+    }
   }
 }
 </style>

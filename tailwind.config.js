@@ -95,8 +95,8 @@ module.exports = {
           400: "#9CA3AF",
           500: "#4B5563",
           600: "#364255",
-          700: "#253047",
-          800: "#172139",
+          700: "#374151",
+          800: "#1F2937",
           900: "#111827",
         },
         accent: {
@@ -109,5 +109,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

@@ -15,7 +15,7 @@
               to-pink-500
             "
           >
-            It's Easy! Just <span class="block">3 Simple Steps</span>
+            Just 3 steps and <span class="block">you’re all set!</span>
           </h2>
           <p class="text-gray-400 mt-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem purus
@@ -49,19 +49,19 @@ export default {
         {
           icon: "whatsapp-accent.svg",
           title: "Open WhatsApp Link Generator",
-          description: "Enter your phone number with correct country code."
+          description: "Type in your phone number with your country code."
         },
         {
           icon: "default-message.svg",
-          title: "Set Default Message",
+          title: "Create a default message",
           description:
-            "Enter the default message that you would like your customers to see."
+            "Leave a default message that every client would receive when they reach out to you."
         },
         {
           icon: "whatsapp-link.svg",
-          title: "Get Your WhatsApp Link",
+          title: "Share your WhatsApp Link",
           description:
-            "Click on ‘Get Link’ button to generate your customised WhatsApp Link. "
+            "Simply click on ‘Get Link’, and you have your own WhatsApp link to share."
         }
       ]
     };
@@ -89,7 +89,7 @@ export default {
     @apply absolute top-8 w-5 sm:w-8 h-[3px] bg-gray-200 left-0;
   }
   & + .link-card {
-    @apply mt-10;
+    @apply mt-20;
   }
 }
 </style>

@@ -40,14 +40,14 @@ export default {
     return {
       missions: [
         {
-          title: "Mission",
+          title: "Our Mission",
           text:
-            "No code E-commerce builder towards how Vepaar is different and better."
+            "An Ecommerce builder that doesn’t require any coding - Get consumer insights easily and efficiently with Vepaar"
         },
         {
           title: "Our Commitment",
           text:
-            "Dedicated to improving Product Quality and provide the best support for our product."
+            "We’re dedicated to revolutionizing the way you get product insights and making it the very best"
         }
       ]
     };

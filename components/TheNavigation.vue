@@ -1,13 +1,13 @@
 <template>
   <nav>
-    <the-button
+    <NuxtLink
       v-for="(nav, index) in navigations"
       :key="index"
-      :href="nav.link"
-      theme="nav"
+      :to="nav.link"
+      class="button button--nav"
     >
       {{ nav.name }}
-    </the-button>
+    </NuxtLink>
   </nav>
 </template>
 <script setup>

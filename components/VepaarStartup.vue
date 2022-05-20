@@ -16,49 +16,48 @@
                 mb-5
               "
             >
-              Wondering <span class="block"> What Vepaar means?</span>
+              <span class="block"> What does Vepaar mean?</span>
             </h3>
             <p>
-              Vepaar (Ve·paa·r) is a Gujarati Word (વેપાર), meaning ‘business’.
-              After all, Gujaratis are known
-            </p>
-            <p>
-              for their unparalleled business skills and the brand name embodies
-              our mission — to help small and medium businesses all over the
-              world to take their business online.
+              A Gujarati word, Vepaar, means ‘business’. As everyone knows,
+              Gujaratis are known for having a knack for business, and for this
+              reason, our brand name symbolizes our mission. And the mission is
+              to assist small and medium businesses in taking their business
+              online.
             </p>
           </div>
         </div>
         <div class="flex-1 mt-10 sm:mt-0">
-          <h3 class="text-5xl font-semibold">How it all started?</h3>
+          <h3 class="text-5xl font-semibold">How did it all start?</h3>
           <div class="mt-10 text-gray-400 description">
             <p>
-              In 2013, we met as graduate students at TCS, with the mutual dream
-              to create new ideas that would anticipate future technology and,
-              in turn, newer ways to broaden our horizons.
+              It was the year 2013, and the lot met at TCS with a graduate
+              degree in hand and a dream to come up with ideas that would
+              forecast future technology.
             </p>
 
             <p>
-              Our entrepreneurial stint began in the year 2015, with the
-              creation of BOT on WhatsApp (even before the same messaging brand
-              did), which would respond automatically to #tags. And, voilà!
-              WhatsHash was born. WhatsHash got featured on many well-known
-              blogs and news sites, TechCrunch is one of them. 🥳
+              Our spell as entrepreneurs began back in 2015 when we created BOT
+              on WhatsApp, which was surprisingly created before the messaging
+              brand itself did so. This BOT would respond automatically to
+              hashtags, and this is how WhatsHash came to life. The new company
+              got promoted on several websites and blogs, including the likes of
+              TechCrunch.
             </p>
 
             <p>
-              The idea to integrate businesses on instant messaging apps emerged
-              as our company’s side project in 2015. To build a seamless and
-              effective business online, we decided to take things to the next
-              level by a brand makeover this year - WhatsHash became Vepaar.
+              This idea to integrate businesses into messaging apps came up back
+              in 2015. However, this year we decided to take things up a notch
+              and give our firm a brand makeover, and thus, WhatsHash got
+              renamed Vepaar.
             </p>
 
             <p>
-              As a business app for small businesses, Vepaar is one of the
-              emerging WhatsApp Marketing platforms across the globe today. With
-              over 3000 happy customers, Vepaar is still 100% founder-owned,
-              with more opportunities to maximise profits at every step. Our
-              headquarters is situated in Ahmedabad, India.
+              With over 3000 happy customers, Vepaar is easily one of the nicely
+              emerging WhatsApp Marketing platforms today. Still fully
+              founder-owned, we look forward to every opportunity wherein we get
+              to maximize our profits. The headquarters of Vepaar is located in
+              Ahmedabad, India.
             </p>
           </div>
         </div>

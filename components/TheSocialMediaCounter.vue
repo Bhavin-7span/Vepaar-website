@@ -18,11 +18,11 @@
               to-pink-500
             "
           >
-            Check These Examples
+            Watch these Examples
           </h2>
           <p class="text-gray-400 mt-5 text-lg">
-            Share your customized WhatsApp link on Twitter, post on Facebook as
-            well as on Instagram
+            You can now generate and share your customized WhatsApp Link for
+            Twitter, Facebook, or Instagram Bio Links.
           </p>
         </div>
       </div>

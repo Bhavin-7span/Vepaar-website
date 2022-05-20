@@ -4,11 +4,11 @@
       <div class="container">
         <img src="/images/team-photo.jpg" alt="" class="rounded-xl" />
         <div class="sm:flex items-center mt-8">
-          <h3 class="text-white text-2xl font-semibold sm:px-5">Our Team</h3>
+          <h3 class="text-white text-2xl font-semibold sm:px-5">Who We Are</h3>
           <p class="flex-1 text-gray-400 mt-5 sm:mt-0">
-            Nulla sagittis, eget tellus massa. Sit scelerisque arcu enim
-            adipiscing vitae. Nulla sagittis, eget tellus massa. Sit scelerisque
-            arcu enim adipiscing vitae.
+            We’re motivated to make your business grow to newer heights. A team
+            of passionate people that brings the best solutions to your
+            fingertips.
           </p>
         </div>
       </div>

@@ -20,7 +20,9 @@
           >
             <span class="">{{ title }}</span>
           </h2>
-          <ul class="mt-5 sm:mt-10 list-disc ml-5 text-2xl text-gray-900">
+          <ul
+            class="mt-5 sm:mt-10 list-disc ml-5 text-2xl text-gray-900 relative"
+          >
             <li
               v-for="(point, index) in points"
               :key="index"
@@ -33,8 +35,8 @@
             </li>
           </ul>
         </div>
-        <div class="flex-1">
-          <img :src="'/images/' + image" alt="WhatsApp" class="block" />
+        <div class="flex-1 crm-feature-image">
+          <img :src="'/images/' + image" alt="WhatsApp" class="block w-full" />
         </div>
       </div>
     </div>
@@ -58,5 +60,23 @@ export default {
 <style lang="scss">
 .module.module--row {
   @apply py-10 sm:py-5;
+}
+.module--row-customer .crm-feature-image {
+  @apply lg:-mr-[6%];
+}
+.module--row-records .crm-feature-image {
+  @apply lg:-ml-[8%];
+}
+.module--row-saving .crm-feature-image {
+  @apply lg:-mr-[2.5%];
+}
+.module--row-auto .crm-feature-image {
+  @apply lg:-ml-[2.5%];
+}
+.module--row-products .crm-feature-image {
+  @apply lg:-mr-[8%];
+}
+.module--row-variable .crm-feature-image {
+  @apply lg:-ml-[6.5%];
 }
 </style>

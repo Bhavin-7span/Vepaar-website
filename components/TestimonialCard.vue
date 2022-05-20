@@ -15,7 +15,11 @@
         </p>
       </div>
       <a href="javascript:;" class="ml-auto">
-        <img :src="'/images/' + testimonial.socialIcon + '.svg'" alt="" />
+        <img
+          :src="'/images/' + testimonial.socialIcon + '.svg'"
+          alt=""
+          class="w-6"
+        />
       </a>
     </div>
 
