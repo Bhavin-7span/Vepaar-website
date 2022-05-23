@@ -11,138 +11,142 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <table class="table-head" :class="isSticky ? 'head-sticky' : ''">
-      <thead>
-        <tr class="desktop-thead hidden lg:table-row">
-          <th></th>
-          <th
-            v-for="(plan, index) in plans"
-            :key="index"
-            :class="plan.title + '-plan'"
-          >
-            <h3 class="text-2xl text-gray-900 font-semibold mb-2 capitalize">
-              {{ plan.title }}
-            </h3>
-            <a :href="plan.link" class="plan-button plan-button--visible">
-              Try Now!
-            </a>
-          </th>
-        </tr>
-        <tr class="responsive-thead lg:hidden">
-          <th colspan="5" :class="plans[selectedPlan].title + '-plan'">
-            <div class="flex justify-between items-center relative z-10 mb-2">
-              <h3 class="text-lg capitalize m-0">Plans</h3>
-              <select
-                v-model="selectedPlan"
-                class="capitalize block p-2 border border-gray-400 rounded"
-              >
-                <option
-                  v-for="(plan, index) in plans"
-                  :key="index"
-                  :value="index"
-                  class="capitalize"
-                >
-                  {{ plan.title }}
-                </option>
-              </select>
-            </div>
-            <a
-              :href="plans[selectedPlan].link"
-              class="plan-button plan-button--visible relative z-10"
-            >
-              Try Now!
-            </a>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td colspan="5">
-            <table
-              v-for="(table, index) in tables"
+  <div class="table-wrap" :class="isSticky ? 'table-wrap--sticky' : ''">
+    <div class="container">
+      <table class="table-head" :class="isSticky ? 'head-sticky' : ''">
+        <thead>
+          <tr class="desktop-thead hidden lg:table-row">
+            <th></th>
+            <th
+              v-for="(plan, index) in plans"
               :key="index"
-              class="compare-table"
+              :class="plan.title + '-plan'"
             >
-              <thead>
-                <tr>
-                  <th colspan="5" class="text-left">
-                    <div class="inline-flex items-center thead-title">
-                      <img :src="'/images/' + table.icon" alt="" />
-                      <span class="pl-3 text-2xl">{{ table.title }}</span>
-                    </div>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr v-for="(item, index) in table.data" :key="index">
-                  <td>{{ item.label }}</td>
-                  <td
-                    :class="
-                      plans[selectedPlan].title == 'free'
-                        ? 'table-cell'
-                        : 'hidden lg:table-cell'
-                    "
+              <h3 class="text-2xl text-gray-900 font-semibold mb-2 capitalize">
+                {{ plan.title }}
+              </h3>
+              <a :href="plan.link" class="plan-button plan-button--visible">
+                Try Now!
+              </a>
+            </th>
+          </tr>
+          <tr class="responsive-thead lg:hidden">
+            <th colspan="5" :class="plans[selectedPlan].title + '-plan'">
+              <div class="flex justify-between items-center relative z-10 mb-2">
+                <h3 class="text-lg capitalize m-0">Plans</h3>
+                <select
+                  v-model="selectedPlan"
+                  class="capitalize block p-2 border border-gray-400 rounded"
+                >
+                  <option
+                    v-for="(plan, index) in plans"
+                    :key="index"
+                    :value="index"
+                    class="capitalize"
                   >
-                    <span v-if="item.free == 'yes'" class="text-2xl text-free"
-                      ><icons-mdi-check-circle
-                    /></span>
-                    <span v-else>{{ item.free }}</span>
-                  </td>
-                  <td
-                    :class="
-                      plans[selectedPlan].title == 'basic'
-                        ? 'table-cell'
-                        : 'hidden lg:table-cell'
-                    "
-                  >
-                    <span v-if="item.basic == 'yes'" class="text-2xl text-basic"
-                      ><icons-mdi-check-circle
-                    /></span>
-                    <span v-else>{{ item.basic }}</span>
-                  </td>
-                  <td
-                    :class="
-                      plans[selectedPlan].title == 'pro'
-                        ? 'table-cell'
-                        : 'hidden lg:table-cell'
-                    "
-                  >
-                    <span v-if="item.pro == 'yes'" class="text-2xl text-pro"
-                      ><icons-mdi-check-circle
-                    /></span>
-                    <span v-else>{{ item.pro }}</span>
-                  </td>
-                  <td
-                    :class="
-                      plans[selectedPlan].title == 'agency'
-                        ? 'table-cell'
-                        : 'hidden lg:table-cell'
-                    "
-                  >
-                    <span
-                      v-if="item.agency == 'yes'"
-                      class="text-2xl text-agency"
-                      ><icons-mdi-check-circle
-                    /></span>
-                    <span v-else>{{ item.agency }}</span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+                    {{ plan.title }}
+                  </option>
+                </select>
+              </div>
+              <a
+                :href="plans[selectedPlan].link"
+                class="plan-button plan-button--visible relative z-10"
+              >
+                Try Now!
+              </a>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="5">
+              <table
+                v-for="(table, index) in tables"
+                :key="index"
+                class="compare-table"
+              >
+                <thead>
+                  <tr>
+                    <th colspan="5" class="text-left">
+                      <div class="inline-flex items-center thead-title">
+                        <img :src="'/images/' + table.icon" alt="" />
+                        <span class="pl-3 text-2xl">{{ table.title }}</span>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(item, index) in table.data" :key="index">
+                    <td>{{ item.label }}</td>
+                    <td
+                      :class="
+                        plans[selectedPlan].title == 'free'
+                          ? 'table-cell'
+                          : 'hidden lg:table-cell'
+                      "
+                    >
+                      <span v-if="item.free == 'yes'" class="text-2xl text-free"
+                        ><icons-mdi-check-circle
+                      /></span>
+                      <span v-else>{{ item.free }}</span>
+                    </td>
+                    <td
+                      :class="
+                        plans[selectedPlan].title == 'basic'
+                          ? 'table-cell'
+                          : 'hidden lg:table-cell'
+                      "
+                    >
+                      <span
+                        v-if="item.basic == 'yes'"
+                        class="text-2xl text-basic"
+                        ><icons-mdi-check-circle
+                      /></span>
+                      <span v-else>{{ item.basic }}</span>
+                    </td>
+                    <td
+                      :class="
+                        plans[selectedPlan].title == 'pro'
+                          ? 'table-cell'
+                          : 'hidden lg:table-cell'
+                      "
+                    >
+                      <span v-if="item.pro == 'yes'" class="text-2xl text-pro"
+                        ><icons-mdi-check-circle
+                      /></span>
+                      <span v-else>{{ item.pro }}</span>
+                    </td>
+                    <td
+                      :class="
+                        plans[selectedPlan].title == 'agency'
+                          ? 'table-cell'
+                          : 'hidden lg:table-cell'
+                      "
+                    >
+                      <span
+                        v-if="item.agency == 'yes'"
+                        class="text-2xl text-agency"
+                        ><icons-mdi-check-circle
+                      /></span>
+                      <span v-else>{{ item.agency }}</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-    <div class="table-notes pb-20 pt-10">
-      <p class="text-gray-500 font-semibold">
-        <a href="javascript:;" class="text-primary-500"
-          >For Starters, try our Free Plan.</a
-        >
-        No strings attached. You can upgrade, downgrade or cancel anytime.
-      </p>
-      <p class="text-sm text-gray-400">*Features are under development.</p>
+      <div class="table-notes pb-20 pt-10">
+        <p class="text-gray-500 font-semibold">
+          <a href="javascript:;" class="text-primary-500"
+            >For Starters, try our Free Plan.</a
+          >
+          No strings attached. You can upgrade, downgrade or cancel anytime.
+        </p>
+        <p class="text-sm text-gray-400">*Features are under development.</p>
+      </div>
     </div>
   </div>
 </template>
@@ -479,29 +483,29 @@ export default {
     @apply text-left lg:px-3 border-b border-gray-100 pb-12 sticky top-0 z-10 bg-white;
     &:nth-child(1) {
       @apply w-1/3;
-      &::before {
-        background: #fff;
-        content: "";
-        height: 126px;
-        left: -500px;
-        position: absolute;
-        top: 0;
-        width: 500px;
-        @apply border-b border-gray-100 hidden lg:block;
-      }
+      // &::before {
+      //   background: #fff;
+      //   content: "";
+      //   height: 126px;
+      //   left: -500px;
+      //   position: absolute;
+      //   top: 0;
+      //   width: 500px;
+      //   @apply border-b border-gray-100 hidden lg:block;
+      // }
     }
-    &:last-child {
-      &::before {
-        background: #fff;
-        content: "";
-        height: 126px;
-        right: -500px;
-        position: absolute;
-        top: 0;
-        width: 500px;
-        @apply border-b border-gray-100;
-      }
-    }
+    // &:last-child {
+    //   &::before {
+    //     background: #fff;
+    //     content: "";
+    //     height: 126px;
+    //     right: -500px;
+    //     position: absolute;
+    //     top: 0;
+    //     width: 500px;
+    //     @apply border-b border-gray-100;
+    //   }
+    // }
     &::after {
       content: "";
       @apply -bottom-[1px] right-0 left-0 h-[1px] absolute bg-gray-100;
@@ -585,5 +589,12 @@ export default {
 }
 .text-agency {
   @apply text-pink-500;
+}
+.table-wrap--sticky {
+  @apply relative;
+  &:before {
+    content: "";
+    @apply sticky top-0 right-0 left-0 h-[100px] bg-white block z-10;
+  }
 }
 </style>
