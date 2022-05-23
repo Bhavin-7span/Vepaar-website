@@ -277,19 +277,17 @@
         <div class="privacy-card">
           <h2>9. Contact Us</h2>
           <p>Please contact Vepaar if:</p>
-          <ul>
-            <li>
-              a. you have any questions or comments about this Privacy Policy;
-            </li>
-            <li>
-              b. you wish to access, update, and/or correct inaccuracies in your
-              Personal Data; or
-            </li>
-            <li>
-              c. you otherwise have a question or complaint about the manner in
-              which our service providers or we treat your Personal Data.
-            </li>
-          </ul>
+          <p>
+            a. you have any questions or comments about this Privacy Policy;
+          </p>
+          <p>
+            b. you wish to access, update, and/or correct inaccuracies in your
+            Personal Data; or
+          </p>
+          <p>
+            c. you otherwise have a question or complaint about the manner in
+            which our service providers or we treat your Personal Data.
+          </p>
           <p>
             You can reach us by emailing
             <a href="mailto:support@vepaar.com">support@vepaar.com</a>
