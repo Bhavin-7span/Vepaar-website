@@ -1,40 +1,42 @@
 <template>
-  <!-- Hero Section: Start -->
-  <TheHero
-    title="WhatsApp Link Generator"
-    subTitle="Get your own WhatsApp Link"
-    isHeightAuto
-  ></TheHero>
-  <!-- Hero Section: End -->
+  <div>
+    <!-- Hero Section: Start -->
+    <TheHero
+      title="WhatsApp Link Generator"
+      subTitle="Get your own WhatsApp Link"
+      isHeightAuto
+    ></TheHero>
+    <!-- Hero Section: End -->
 
-  <!-- LinkForm: Start -->
-  <TheLinkForm id="whatsapp-link" />
-  <!-- LinkForm: End -->
+    <!-- LinkForm: Start -->
+    <TheLinkForm id="whatsapp-link" />
+    <!-- LinkForm: End -->
 
-  <!-- SocialMedia Counter: Start -->
-  <TheSocialMediaCounter />
-  <!-- SocialMedia Counter: End -->
+    <!-- SocialMedia Counter: Start -->
+    <TheSocialMediaCounter />
+    <!-- SocialMedia Counter: End -->
 
-  <!-- WhatsApp Link Steps: Start -->
-  <TheLinkSteps />
-  <!-- WhatsApp Link Steps: End -->
+    <!-- WhatsApp Link Steps: Start -->
+    <TheLinkSteps />
+    <!-- WhatsApp Link Steps: End -->
 
-  <!-- FAQ : Start -->
-  <TheFaq :faqs="faqs" />
-  <!-- FAQ : End -->
+    <!-- FAQ : Start -->
+    <TheFaq :faqs="faqs" />
+    <!-- FAQ : End -->
 
-  <!-- Review Section: Start -->
-  <TheReview color="light" />
-  <!-- Review Section: End -->
+    <!-- Review Section: Start -->
+    <TheReview color="light" />
+    <!-- Review Section: End -->
 
-  <!-- The CTA: Start -->
-  <TheCta
-    tagline="Trusted by 100k+ Business Worldwide"
-    title="Create & Share your WhatsApp link"
-    description="Create a WhatsApp link for your business in just 3 simple steps and get more customer to your WhatsApp."
-    getStarted
-  />
-  <!-- The CTA: End -->
+    <!-- The CTA: Start -->
+    <TheCta
+      tagline="Trusted by 100k+ Business Worldwide"
+      title="Create & Share your WhatsApp link"
+      description="Create a WhatsApp link for your business in just 3 simple steps and get more customer to your WhatsApp."
+      getStarted
+    />
+    <!-- The CTA: End -->
+  </div>
 </template>
 
 <script>

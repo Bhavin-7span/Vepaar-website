@@ -1,3 +1,5 @@
 <template>
-  <TheDownload />
+  <div>
+    <TheDownload />
+  </div>
 </template>

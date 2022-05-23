@@ -1,33 +1,35 @@
 <template>
-  <div id="section-offset">
-    <!-- Hero Section: Start -->
-    <TheHero title="Pricing" subTitle="Start free" isHeightAuto></TheHero>
-    <!-- Hero Section: End -->
+  <div>
+    <div id="section-offset">
+      <!-- Hero Section: Start -->
+      <TheHero title="Pricing" subTitle="Start free" isHeightAuto></TheHero>
+      <!-- Hero Section: End -->
 
-    <!-- Review Section: Start -->
-    <TheReview color="light" />
-    <!-- Review Section: End -->
+      <!-- Review Section: Start -->
+      <TheReview color="light" />
+      <!-- Review Section: End -->
 
-    <!-- Pricing Tab: Start -->
-    <PricingTab />
-    <!-- Pricing Tab: End -->
+      <!-- Pricing Tab: Start -->
+      <PricingTab />
+      <!-- Pricing Tab: End -->
+    </div>
+
+    <!-- Compare Plans: Start -->
+    <ComparePlans :plans="plans" :isSticky="isSticky" />
+    <!-- Compare Plans: End -->
+
+    <!-- FAQ : Start -->
+    <TheFaq :faqs="faqs" />
+    <!-- FAQ : End -->
+
+    <!-- Request : Start -->
+    <TheRequest />
+    <!-- Request : End -->
+
+    <!-- Clients Logo: Start -->
+    <TheClients />
+    <!-- Clients Logo: End -->
   </div>
-
-  <!-- Compare Plans: Start -->
-  <ComparePlans :plans="plans" :isSticky="isSticky" />
-  <!-- Compare Plans: End -->
-
-  <!-- FAQ : Start -->
-  <TheFaq :faqs="faqs" />
-  <!-- FAQ : End -->
-
-  <!-- Request : Start -->
-  <TheRequest />
-  <!-- Request : End -->
-
-  <!-- Clients Logo: Start -->
-  <TheClients />
-  <!-- Clients Logo: End -->
 </template>
 
 <script>

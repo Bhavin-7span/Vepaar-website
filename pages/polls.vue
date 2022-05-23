@@ -1,48 +1,50 @@
 <template>
-  <!-- Hero Section: Start -->
-  <TheHero
-    title="Engage with Consumers"
-    subTitle="Efficiently with Whatsapp Poll."
-    textContent="Use Whatsapp Polls to understand consumer behavior better and make informed decisions for your upcoming campaigns."
-    link="#"
-  ></TheHero>
-  <!-- Hero Section: End -->
+  <div>
+    <!-- Hero Section: Start -->
+    <TheHero
+      title="Engage with Consumers"
+      subTitle="Efficiently with Whatsapp Poll."
+      textContent="Use Whatsapp Polls to understand consumer behavior better and make informed decisions for your upcoming campaigns."
+      link="#"
+    ></TheHero>
+    <!-- Hero Section: End -->
 
-  <!-- Review Section: Start -->
-  <TheReview color="light" />
-  <!-- Review Section: End -->
+    <!-- Review Section: Start -->
+    <TheReview color="light" />
+    <!-- Review Section: End -->
 
-  <!-- Content Section: Start -->
-  <TheContent
-    title="Insightful Dashboard"
-    subTitle="with Poll Results"
-    content="The Dashboard space will allow you to view the WhatsApp polls you’ve conducted. You have the options to view, pin or share your polls. "
-    image="polls-screenshot.jpg"
-  />
-  <!-- Content Section: End -->
+    <!-- Content Section: Start -->
+    <TheContent
+      title="Insightful Dashboard"
+      subTitle="with Poll Results"
+      content="The Dashboard space will allow you to view the WhatsApp polls you’ve conducted. You have the options to view, pin or share your polls. "
+      image="polls-screenshot.jpg"
+    />
+    <!-- Content Section: End -->
 
-  <!-- Best Feature Section: Start -->
-  <TheBestFeature
-    class="module--feature-bg"
-    title="Features that create quick and effective"
-    subTitle="Polls for WhatsApp."
-    content="Use our feature suite to make polls that drive results. Get better data in a comprehensive form to create better campaigns for the future. Collect opinions that matter."
-    :features="features"
-    cols2
-  />
-  <!-- Best Feature Section: End -->
+    <!-- Best Feature Section: Start -->
+    <TheBestFeature
+      class="module--feature-bg"
+      title="Features that create quick and effective"
+      subTitle="Polls for WhatsApp."
+      content="Use our feature suite to make polls that drive results. Get better data in a comprehensive form to create better campaigns for the future. Collect opinions that matter."
+      :features="features"
+      cols2
+    />
+    <!-- Best Feature Section: End -->
 
-  <!-- Poll Step: Start -->
-  <ThePollSteps />
-  <!-- Poll Step: Start -->
+    <!-- Poll Step: Start -->
+    <ThePollSteps />
+    <!-- Poll Step: Start -->
 
-  <!-- The CTA: Start -->
-  <TheCta
-    tagline="Powered by Official WhatsApp Business APIs"
-    title="Poll on WhatsApp to grow your business"
-    description="With this another remarkable feature at Vepaar, you will gain insights into the current business scenario and help you understand your customers' needs."
-  />
-  <!-- The CTA: End -->
+    <!-- The CTA: Start -->
+    <TheCta
+      tagline="Powered by Official WhatsApp Business APIs"
+      title="Poll on WhatsApp to grow your business"
+      description="With this another remarkable feature at Vepaar, you will gain insights into the current business scenario and help you understand your customers' needs."
+    />
+    <!-- The CTA: End -->
+  </div>
 </template>
 <script>
 // This will also work in `<script setup>`

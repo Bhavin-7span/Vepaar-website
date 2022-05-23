@@ -75,7 +75,7 @@ export default {
             },
             {
               name: "Link Generator",
-              href: "#"
+              href: "whatsapp-link-generator"
             }
           ]
         },
@@ -105,7 +105,7 @@ export default {
           links: [
             {
               name: "Privacy Policy",
-              href: "#"
+              href: "privacy-policy"
             },
             {
               name: "Terms of Use",

@@ -1,103 +1,105 @@
 <template>
-  <!-- Hero Section: Start -->
-  <TheHero
-    title="Start Selling"
-    subTitle="Online for Free"
-    textContent="Join our community of over 100k entrepreneurs and begin selling. Don’t think twice, this is the easiest way to start your online store."
-    link="#"
-    buttonLabel="Sign up for Free!"
-  ></TheHero>
-  <!-- Hero Section: End -->
+  <div>
+    <!-- Hero Section: Start -->
+    <TheHero
+      title="Start Selling"
+      subTitle="Online for Free"
+      textContent="Join our community of over 100k entrepreneurs and begin selling. Don’t think twice, this is the easiest way to start your online store."
+      link="#"
+      buttonLabel="Sign up for Free!"
+    ></TheHero>
+    <!-- Hero Section: End -->
 
-  <!-- Review Section: Start -->
-  <TheReview color="light" />
-  <!-- Review Section: End -->
+    <!-- Review Section: Start -->
+    <TheReview color="light" />
+    <!-- Review Section: End -->
 
-  <!-- Content Section: Start -->
-  <TheContent
-    title="Insightful Dashboard and Orders"
-    subTitle="The Perfect Dashboard to Manage Everything"
-    content="Visit the Dashboard for important statistics and start with your sales journey"
-    image="order-screenshot.jpg"
-  />
-  <!-- Content Section: End -->
+    <!-- Content Section: Start -->
+    <TheContent
+      title="Insightful Dashboard and Orders"
+      subTitle="The Perfect Dashboard to Manage Everything"
+      content="Visit the Dashboard for important statistics and start with your sales journey"
+      image="order-screenshot.jpg"
+    />
+    <!-- Content Section: End -->
 
-  <!-- Best Feature Section: Start -->
-  <TheBestFeature
-    class="module--feature-bg"
-    title="Everything you need "
-    subTitle="to sell online"
-    content="Under the ‘Store’ section, you can use countless features, all of which help you manage your business easily."
-    :features="features"
-  />
-  <!-- Best Feature Section: End -->
+    <!-- Best Feature Section: Start -->
+    <TheBestFeature
+      class="module--feature-bg"
+      title="Everything you need "
+      subTitle="to sell online"
+      content="Under the ‘Store’ section, you can use countless features, all of which help you manage your business easily."
+      :features="features"
+    />
+    <!-- Best Feature Section: End -->
 
-  <!-- Feature Row Section: Start -->
-  <FeatureRow
-    class="module--row-products"
-    title="Sell Digital Products"
-    :points="productFeature"
-    image="sell-digital-product.jpg"
-  />
-  <!-- Feature Row Section: End -->
+    <!-- Feature Row Section: Start -->
+    <FeatureRow
+      class="module--row-products"
+      title="Sell Digital Products"
+      :points="productFeature"
+      image="sell-digital-product.jpg"
+    />
+    <!-- Feature Row Section: End -->
 
-  <!-- Feature Row Section: Start -->
-  <FeatureRow
-    class="module--row-variable"
-    title="Create Variable Products"
-    isReverse
-    :points="variableProductFeature"
-    image="variable-product.jpg"
-  />
-  <!-- Feature Row Section: End -->
+    <!-- Feature Row Section: Start -->
+    <FeatureRow
+      class="module--row-variable"
+      title="Create Variable Products"
+      isReverse
+      :points="variableProductFeature"
+      image="variable-product.jpg"
+    />
+    <!-- Feature Row Section: End -->
 
-  <!-- Feature Row Section: Start -->
-  <FeatureRow
-    class="module--row-checkout"
-    title="Checkout Customization and Add-ons"
-    :points="customizationFeature"
-    image="checkout-customisation.jpg"
-  />
-  <!-- Feature Row Section: End -->
+    <!-- Feature Row Section: Start -->
+    <FeatureRow
+      class="module--row-checkout"
+      title="Checkout Customization and Add-ons"
+      :points="customizationFeature"
+      image="checkout-customisation.jpg"
+    />
+    <!-- Feature Row Section: End -->
 
-  <!-- Feature Row Section: Start -->
-  <FeatureRow
-    title="Use Discount Coupons to Increase Sales"
-    :points="discountFeature"
-    image="discount-coupons.jpg"
-    isReverse
-  />
-  <!-- Feature Row Section: End -->
+    <!-- Feature Row Section: Start -->
+    <FeatureRow
+      title="Use Discount Coupons to Increase Sales"
+      :points="discountFeature"
+      image="discount-coupons.jpg"
+      isReverse
+    />
+    <!-- Feature Row Section: End -->
 
-  <!-- The Apps: Start -->
-  <TheApps image="payment-methods.png">
-    <h2 class="text-2xl lg:text-5xl font-semibold text-white">
-      <span
-        class="
-          text-transparent
-          bg-clip-text bg-gradient-to-r
-          from-primary-500
-          via-purple-500 via-deep-purple-500
-          to-pink-500
-        "
-        >Payment Integrations</span
-      >
-      to make Vepaar transactions smother than ever!
-    </h2>
-  </TheApps>
-  <!-- The Apps: End -->
+    <!-- The Apps: Start -->
+    <TheApps image="payment-methods.png">
+      <h2 class="text-2xl lg:text-5xl font-semibold text-white">
+        <span
+          class="
+            text-transparent
+            bg-clip-text bg-gradient-to-r
+            from-primary-500
+            via-purple-500 via-deep-purple-500
+            to-pink-500
+          "
+          >Payment Integrations</span
+        >
+        to make Vepaar transactions smother than ever!
+      </h2>
+    </TheApps>
+    <!-- The Apps: End -->
 
-  <!-- Clients Logo: Start -->
-  <TheClients />
-  <!-- Clients Logo: End -->
+    <!-- Clients Logo: Start -->
+    <TheClients />
+    <!-- Clients Logo: End -->
 
-  <!-- The CTA: Start -->
-  <TheCta
-    title="Start your online store now!"
-    description="Create and manage the online store of your dreams at Vepaar. Get your Free online store in just 30 seconds. 
-"
-  />
-  <!-- The CTA: End -->
+    <!-- The CTA: Start -->
+    <TheCta
+      title="Start your online store now!"
+      description="Create and manage the online store of your dreams at Vepaar. Get your Free online store in just 30 seconds. 
+  "
+    />
+    <!-- The CTA: End -->
+  </div>
 </template>
 <script>
 // This will also work in `<script setup>`

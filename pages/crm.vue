@@ -1,104 +1,106 @@
 <template>
-  <!-- Hero Section: Start -->
-  <TheHero
-    title="Amplify WhatsApp Web"
-    subTitle="And Skyrocket Your Conversation"
-    textContent="Now you can expand the functionalities of the most powerful messaging tool and get the most out of your business."
-    link="#"
-  ></TheHero>
-  <!-- Hero Section: End -->
+  <div>
+    <!-- Hero Section: Start -->
+    <TheHero
+      title="Amplify WhatsApp Web"
+      subTitle="And Skyrocket Your Conversation"
+      textContent="Now you can expand the functionalities of the most powerful messaging tool and get the most out of your business."
+      link="#"
+    ></TheHero>
+    <!-- Hero Section: End -->
 
-  <!-- Review Section: Start -->
-  <TheReview color="light" />
-  <!-- Review Section: End -->
+    <!-- Review Section: Start -->
+    <TheReview color="light" />
+    <!-- Review Section: End -->
 
-  <!-- Content Section: Start -->
-  <TheContent
-    title="Easily Assess"
-    subTitle="Your Business Activities"
-    content="Our dashboard gives you a bird’s-eye view of your business metrics. You can also get a glimpse of your leads anytime, anywhere"
-    image="extension.jpg"
-    :ctaButton="false"
-  />
-  <!-- Content Section: End -->
+    <!-- Content Section: Start -->
+    <TheContent
+      title="Easily Assess"
+      subTitle="Your Business Activities"
+      content="Our dashboard gives you a bird’s-eye view of your business metrics. You can also get a glimpse of your leads anytime, anywhere"
+      image="extension.jpg"
+      :ctaButton="false"
+    />
+    <!-- Content Section: End -->
 
-  <!-- Best Feature Section: Start -->
-  <TheBestFeature
-    class="module--feature-bg"
-    title="We Acknowledge Your Business Needs"
-    subTitle="And Thus Bring Forward The Most Remarkable Feature WhatsApp Has To Offer"
-    content="Vepaar has come up with a good number of features that allow you to turn WhatsApp from a typical messaging app into your business partner. "
-    :features="features"
-  />
-  <!-- Best Feature Section: End -->
+    <!-- Best Feature Section: Start -->
+    <TheBestFeature
+      class="module--feature-bg"
+      title="We Acknowledge Your Business Needs"
+      subTitle="And Thus Bring Forward The Most Remarkable Feature WhatsApp Has To Offer"
+      content="Vepaar has come up with a good number of features that allow you to turn WhatsApp from a typical messaging app into your business partner. "
+      :features="features"
+    />
+    <!-- Best Feature Section: End -->
 
-  <!-- Feature Row Section: Start -->
-  <FeatureRow
-    class="module--row-customer"
-    title="Leverage WhatsApp To Create Customer Profiles"
-    :points="customerFeature"
-    image="customer-profile-screenshot.jpg"
-  />
-  <!-- Feature Row Section: End -->
+    <!-- Feature Row Section: Start -->
+    <FeatureRow
+      class="module--row-customer"
+      title="Leverage WhatsApp To Create Customer Profiles"
+      :points="customerFeature"
+      image="customer-profile-screenshot.jpg"
+    />
+    <!-- Feature Row Section: End -->
 
-  <!-- Feature Row Section: Start -->
-  <FeatureRow
-    class="module--row-records"
-    title="Record Sales Activities While Chatting On WhatsApp"
-    isReverse
-    :points="notesFeature"
-    image="notes-screenshot.jpg"
-  />
-  <!-- Feature Row Section: End -->
+    <!-- Feature Row Section: Start -->
+    <FeatureRow
+      class="module--row-records"
+      title="Record Sales Activities While Chatting On WhatsApp"
+      isReverse
+      :points="notesFeature"
+      image="notes-screenshot.jpg"
+    />
+    <!-- Feature Row Section: End -->
 
-  <!-- Feature Row Section: Start -->
-  <FeatureRow
-    class="module--row-saving"
-    title="Saving Messages And Media From WhatsApp"
-    :points="messageFeature"
-    image="messages-screenshot.jpg"
-  />
-  <!-- Feature Row Section: End -->
+    <!-- Feature Row Section: Start -->
+    <FeatureRow
+      class="module--row-saving"
+      title="Saving Messages And Media From WhatsApp"
+      :points="messageFeature"
+      image="messages-screenshot.jpg"
+    />
+    <!-- Feature Row Section: End -->
 
-  <!-- Feature Row Section: Start -->
-  <FeatureRow
-    class="module--row-auto"
-    title="Auto Sync Chats From WhatsApp"
-    :points="chatSyncFeature"
-    image="chat-saved-screenshot.jpg"
-    isReverse
-  />
-  <!-- Feature Row Section: End -->
+    <!-- Feature Row Section: Start -->
+    <FeatureRow
+      class="module--row-auto"
+      title="Auto Sync Chats From WhatsApp"
+      :points="chatSyncFeature"
+      image="chat-saved-screenshot.jpg"
+      isReverse
+    />
+    <!-- Feature Row Section: End -->
 
-  <!-- The Apps: Start -->
-  <TheApps image="app-pattern.png">
-    <h2 class="text-2xl lg:text-5xl font-semibold text-white">
-      Your Chrome Extension is Integrated with
-      <span
-        class="
-          text-transparent
-          bg-clip-text bg-gradient-to-r
-          from-primary-500
-          via-purple-500 via-deep-purple-500
-          to-pink-500
-        "
-        >Business Apps you use every day.</span
-      >
-    </h2>
-  </TheApps>
-  <!-- The Apps: End -->
+    <!-- The Apps: Start -->
+    <TheApps image="app-pattern.png">
+      <h2 class="text-2xl lg:text-5xl font-semibold text-white">
+        Your Chrome Extension is Integrated with
+        <span
+          class="
+            text-transparent
+            bg-clip-text bg-gradient-to-r
+            from-primary-500
+            via-purple-500 via-deep-purple-500
+            to-pink-500
+          "
+          >Business Apps you use every day.</span
+        >
+      </h2>
+    </TheApps>
+    <!-- The Apps: End -->
 
-  <!-- Clients Logo: Start -->
-  <TheClients />
-  <!-- Clients Logo: End -->
+    <!-- Clients Logo: Start -->
+    <TheClients />
+    <!-- Clients Logo: End -->
 
-  <!-- The CTA: Start -->
-  <TheCta
-    tagline="Trusted by 100k+ People Worldwide"
-    title="The best CRM for WhatsApp"
-    description="Vepaar helps take your business to the next level by automating many aspects of your business workflow with CRM-like features. We allow you to build customer profiles, send customized replies, save media, conduct polls on WhatsApp, start your online business, and a lot more."
-  />
-  <!-- The CTA: End -->
+    <!-- The CTA: Start -->
+    <TheCta
+      tagline="Trusted by 100k+ People Worldwide"
+      title="The best CRM for WhatsApp"
+      description="Vepaar helps take your business to the next level by automating many aspects of your business workflow with CRM-like features. We allow you to build customer profiles, send customized replies, save media, conduct polls on WhatsApp, start your online business, and a lot more."
+    />
+    <!-- The CTA: End -->
+  </div>
 </template>
 <script>
 // This will also work in `<script setup>`
