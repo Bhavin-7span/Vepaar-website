@@ -17,7 +17,9 @@
       <p class="text-gray-500 my-4 text-sm font-thin leading-5 mx-6">
         {{ data.description }}
       </p>
-      <the-button class="mt-4">{{ data.buttonLabel }}</the-button>
+      <the-button class="mt-4" :href="data.buttonLink">{{
+        data.buttonLabel
+      }}</the-button>
     </div>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-white fixed top-0 left-0 right-0 header"
+    class="bg-white fixed top-0 left-0 right-0 header z-20"
     :class="showNavbar ? '' : 'is-fixed'"
   >
     <div class="container">

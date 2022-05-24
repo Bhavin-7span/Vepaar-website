@@ -54,28 +54,28 @@ export default {
           text: "For Business Starters",
           price: "$0.00",
           notes: "*All prices are exclusive of taxes.",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         },
         {
           title: "basic",
           text: "For Business Starters",
           price: "$4.99",
           notes: "*All prices are exclusive of taxes.",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         },
         {
           title: "pro",
           text: "For Business Starters",
           price: "$14.99",
           notes: "*All prices are exclusive of taxes.",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         },
         {
           title: "agency",
           text: "For Business Starters",
           price: "$29.99",
           notes: "*All prices are exclusive of taxes.",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         }
       ],
       annual: [
@@ -84,28 +84,28 @@ export default {
           text: "For Business Starters",
           price: "$0.00",
           notes: "*All prices are exclusive of taxes.",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         },
         {
           title: "basic",
           text: "For Business Starters",
           price: "$8.99",
           notes: "*All prices are exclusive of taxes.",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         },
         {
           title: "pro",
           text: "For Business Starters",
           price: "$18.99",
           notes: "*All prices are exclusive of taxes.",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         },
         {
           title: "agency",
           text: "For Business Starters",
           price: "$39.99",
           notes: "*All prices are exclusive of taxes.",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         }
       ]
     };

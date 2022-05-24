@@ -82,19 +82,19 @@ export default {
       plans: [
         {
           title: "free",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         },
         {
           title: "basic",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         },
         {
           title: "pro",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         },
         {
           title: "agency",
-          link: "#"
+          link: "https://web.vepaar.com/#/signup"
         }
       ],
       isSticky: false,
