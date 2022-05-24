@@ -5,7 +5,10 @@
       mt-5
       sm:mt-0 sm:ml-8
       rounded-xl
-      bg-deep-purple-500 bg-opacity-10
+      border-4
+      hover:border-purple-500 hover:bg-white
+      bg-purple-500 bg-opacity-5
+      border-transparent
       p-5
     "
   >
@@ -22,10 +25,17 @@
       app today!
     </p>
     <div class="flex">
-      <a href="javascript:;" target="_blank">
+      <a
+        href="https://play.google.com/store/apps/details?id=com.whatshash&hl=en_CA"
+        target="_blank"
+      >
         <img src="/images/playstore.svg" class="h-12 sm:h-16" alt="" />
       </a>
-      <a href="javascript:;" target="_blank" class="ml-2">
+      <a
+        href="https://apps.apple.com/gb/app/whatshash-product-catalog/id1477039888"
+        target="_blank"
+        class="ml-2"
+      >
         <img src="/images/app-store.svg" class="h-12 sm:h-16" alt="" />
       </a>
     </div>

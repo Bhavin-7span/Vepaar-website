@@ -57,7 +57,12 @@
             </the-button>
           </div>
           <div class="header-action hidden lg:flex">
-            <the-button color="primary" size="sm" class="login-button">
+            <the-button
+              color="primary"
+              size="sm"
+              class="login-button"
+              href="https://web.vepaar.com/#/login"
+            >
               Login
             </the-button>
             <the-button

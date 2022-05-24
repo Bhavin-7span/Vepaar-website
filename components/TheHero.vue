@@ -29,9 +29,13 @@
         >
           {{ textContent }}
         </p>
-        <div v-if="link !== ''" class="mt-10">
-          <the-button color="primary" :title="buttonLabel"></the-button>
-        </div>
+        <the-button
+          v-if="link !== ''"
+          color="primary"
+          :title="buttonLabel"
+          :href="link"
+          class="mt-10"
+        />
       </div>
     </div>
   </section>

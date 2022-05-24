@@ -5,7 +5,7 @@
       title="Amplify WhatsApp Web"
       subTitle="And Skyrocket Your Conversation"
       textContent="Now you can expand the functionalities of the most powerful messaging tool and get the most out of your business."
-      link="#"
+      link="https://web.vepaar.com/#/signup"
     ></TheHero>
     <!-- Hero Section: End -->
 

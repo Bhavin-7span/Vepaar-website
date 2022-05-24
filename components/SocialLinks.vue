@@ -5,6 +5,7 @@
       :key="index"
       :href="social.link"
       :class="index == 0 ? 'inline-flex' : 'block ml-2 sm:ml-0 sm:mt-4'"
+      target="_blank"
     >
       <img :src="'/images/' + social.icon" alt="" class="w-8" />
     </a>
@@ -17,7 +18,7 @@ export default {
       socialLinks: [
         {
           icon: "facebook.svg",
-          link: "javascript:;"
+          link: "https://www.facebook.com/VepaarHQ"
         },
         {
           icon: "whatsapp.svg",
@@ -25,15 +26,15 @@ export default {
         },
         {
           icon: "youtube.svg",
-          link: "javascript:;"
+          link: "https://www.youtube.com/c/Vepaar"
         },
         {
           icon: "linkedin.svg",
-          link: "javascript:;"
+          link: "https://www.linkedin.com/company/vepaar/"
         },
         {
           icon: "twitter.svg",
-          link: "javascript:;"
+          link: "https://twitter.com/VepaarHQ"
         }
       ]
     };

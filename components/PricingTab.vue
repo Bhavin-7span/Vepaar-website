@@ -43,8 +43,7 @@ export default {
           value: "monthly"
         },
         {
-          title:
-            "Annual Bill <strong class='ml-2 inline-block'>[Save 16%]</strong>",
+          title: "Annual Bill",
           value: "annual"
         }
       ],

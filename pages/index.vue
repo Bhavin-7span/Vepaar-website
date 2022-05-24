@@ -6,7 +6,7 @@
       subTitle="to managing your business"
       textContent="Without any possible doubt, reaching out to customers via WhatsApp is the next big thing in business! Vepaar provides you with the essential tools that allow you to manage your business effortlessly without diving deep into the technicalities. 
   "
-      link="#"
+      link="https://web.vepaar.com/#/signup"
     ></TheHero>
     <!-- Hero Section: End -->
 
@@ -125,25 +125,25 @@ export default {
       ],
       features2: [
         {
-          icon: "reply-icon.svg",
+          icon: "package-icon.svg",
           title: "Variable/Digital Products",
           text:
             "Allow a set of variations on a product while configuring a number of variables at your convenience. Vepaar even facilitates to sell digital products like eBooks, licenses, etc."
         },
         {
-          icon: "reply-icon.svg",
+          icon: "cart-icon.svg",
           title: "Checkout Configurations",
           text:
             "Now, you can have your custom-made checkout page where you can add new steps and reduce some. "
         },
         {
-          icon: "reply-icon.svg",
+          icon: "clipboard-icon.svg",
           title: "Inventory Management",
           text:
             "Keep track of your products and their stock from anywhere with the most efficient inventory management features. "
         },
         {
-          icon: "reply-icon.svg",
+          icon: "payment-icon.svg",
           title: "Multiple Payment Integrations",
           text:
             "Your customers can have the luxury of choosing from a list of payment gateways from your online shop."

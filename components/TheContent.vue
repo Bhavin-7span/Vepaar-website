@@ -21,6 +21,7 @@
             from-primary-500
             via-purple-500 via-deep-purple-500
             to-pink-500
+            inline-block
           "
         >
           {{ title }}
@@ -33,7 +34,9 @@
         <p class="my-5 lg:my-6 text-sm sm:text-base lg:text-lg text-gray-400">
           {{ content }}
         </p>
-        <the-button size="lg" v-if="ctaButton"> Get Started Now </the-button>
+        <the-button v-if="ctaButton" size="lg" :href="link">
+          Get Started Now
+        </the-button>
       </div>
     </div>
     <div class="mt-8 -mb-7 lg:-mb-10 max-w-7xl mx-auto">
@@ -52,6 +55,11 @@ export default {
       default: true,
       type: Boolean
     }
+  },
+  data() {
+    return {
+      link: "https://web.vepaar.com/#/signup"
+    };
   }
 };
 </script>

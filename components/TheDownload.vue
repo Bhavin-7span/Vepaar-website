@@ -28,7 +28,9 @@
             flex flex-col-reverse
             lg:flex-row
             rounded-xl
-            bg-deep-purple-500 bg-opacity-10
+            bg-deep-purple-500 bg-opacity-5
+            border-4 border-transparent
+            hover:border-deep-purple-500 hover:bg-white
           "
         >
           <div class="flex-1 p-5">
@@ -55,7 +57,7 @@
           </div>
         </div>
 
-        <div class="block sm:flex mt-5">
+        <div class="block sm:flex mt-8">
           <Extension />
           <AppsDownload />
         </div>

@@ -22,10 +22,17 @@
       instant. After all, less hassle assures better results!
     </p>
     <div class="flex justify-center mt-5 sm:mt-10">
-      <a href="javascript:;" target="_blank">
+      <a
+        href="https://play.google.com/store/apps/details?id=com.voliz"
+        target="_blank"
+      >
         <img src="/images/playstore.svg" class="h-10 sm:h-16" alt="" />
       </a>
-      <a href="javascript:;" target="_blank" class="ml-4">
+      <a
+        href="https://apps.apple.com/gb/app/voliz-poll-on-whatsapp/id1547211066"
+        target="_blank"
+        class="ml-4"
+      >
         <img src="/images/app-store.svg" class="h-10 sm:h-16" alt="" />
       </a>
     </div>

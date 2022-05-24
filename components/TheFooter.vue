@@ -84,15 +84,18 @@ export default {
           links: [
             {
               name: "User Guide",
-              href: "#"
+              href: "https://docs.vepaar.com/support/home",
+              target: true
             },
             {
               name: "Video Tutorials",
-              href: "#"
+              href: "https://www.youtube.com/c/Vepaar",
+              target: true
             },
             {
               name: "Blog",
-              href: "#"
+              href: "https://blog.vepaar.com/blog/",
+              target: true
             },
             {
               name: "FAQs",

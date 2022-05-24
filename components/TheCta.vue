@@ -39,7 +39,10 @@
                 </a>
               </div>
             </div>
-            <the-button color="white" class="w-full justify-center"
+            <the-button
+              color="white"
+              class="w-full justify-center"
+              href="https://web.vepaar.com/#/signup"
               >Sign Up for Free!</the-button
             >
           </div>
@@ -64,15 +67,18 @@ export default {
       downloadLinks: [
         {
           icon: "web.svg",
-          href: "#"
+          href:
+            "https://chrome.google.com/webstore/detail/vepaar-crm-for-whatsapp/bkokmlhcdmoeobdcabifliikflimplol"
         },
         {
           icon: "iOS.svg",
-          href: "#"
+          href:
+            "https://apps.apple.com/gb/app/whatshash-product-catalog/id1477039888"
         },
         {
           icon: "android.svg",
-          href: "#"
+          href:
+            "https://play.google.com/store/apps/details?id=com.whatshash&hl=en_CA"
         }
       ]
     };

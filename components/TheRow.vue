@@ -29,7 +29,7 @@
             {{ subTitle }}
           </h2>
           <p class="text-gray-400 my-5 lg:my-8">{{ content }}</p>
-          <the-button>Get Started Now</the-button>
+          <the-button :href="link">Get Started Now</the-button>
         </div>
         <div class="flex-1" :class="isReverse ? '-ml-[10%]' : '-mr-[8.5%]'">
           <img :src="'/images/' + image" alt="WhatsApp" class="block w-full" />
@@ -49,11 +49,16 @@ export default {
       type: Boolean,
       default: false
     }
+  },
+  data() {
+    return {
+      link: "https://web.vepaar.com/#/signup"
+    };
   }
 };
 </script>
 <style lang="scss">
 .module.module--row {
-  @apply py-10 sm:py-0;
+  @apply py-10 sm:py-0 overflow-hidden;
 }
 </style>
