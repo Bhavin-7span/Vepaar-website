@@ -102,11 +102,47 @@
     <!-- The CTA: End -->
   </div>
 </template>
-<script>
-// This will also work in `<script setup>`
-definePageMeta({
-  layout: "default"
+<script setup>
+import ogImage from "/images/og-crm-vepaar.png";
+import schema from "@/data/schema";
+useHead({
+  title: "WhatsApp CRM | Vepaar - Your Free Online Business App",
+  meta: [
+    {
+      hid: "description",
+      name: "description",
+      content:
+        "#1 WhatsApp CRM. Launch your digital store and provide WhatsApp customer support with the right tools, and run your business the right way!"
+    },
+    {
+      property: "og:title",
+      hid: "og:title",
+      name: "og:title",
+      content: "WhatsApp CRM | Vepaar - Your Free Online Business App"
+    },
+    {
+      property: "og:description",
+      hid: "og:description",
+      name: "og:description",
+      content:
+        "#1 WhatsApp CRM. Launch your digital store and provide WhatsApp customer support with the right tools, and run your business the right way!"
+    },
+    {
+      hid: "og:image",
+      property: "og:image",
+      content: ogImage
+    }
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://vepaar.com/crm/"
+    }
+  ],
+  script: [schema("https://www.vepaar.com/crm/")]
 });
+</script>
+<script>
 export default {
   data() {
     return {

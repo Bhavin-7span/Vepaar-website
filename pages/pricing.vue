@@ -31,7 +31,46 @@
     <!-- Clients Logo: End -->
   </div>
 </template>
-
+<script setup>
+import ogImage from "/images/og-products-vepaar.png";
+import schema from "@/data/schema";
+useHead({
+  title: "Pricing | Vepaar - Your Online Business App",
+  meta: [
+    {
+      hid: "description",
+      name: "description",
+      content:
+        "Our Free plan lasts forever, just like your ambitions to make a successful digital store. Upgrade or downgrade or cancel your plan anytime you want to."
+    },
+    {
+      property: "og:title",
+      hid: "og:title",
+      name: "og:title",
+      content: "Pricing | Vepaar - Your Online Business App"
+    },
+    {
+      property: "og:description",
+      hid: "og:description",
+      name: "og:description",
+      content:
+        "Our Free plan lasts forever, just like your ambitions to make a successful digital store. Upgrade or downgrade or cancel your plan anytime you want to."
+    },
+    {
+      hid: "og:image",
+      property: "og:image",
+      content: ogImage
+    }
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://vepaar.com/pricing/"
+    }
+  ],
+  script: [schema("https://vepaar.com/pricing/")]
+});
+</script>
 <script>
 export default {
   data() {

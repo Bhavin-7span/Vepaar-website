@@ -101,11 +101,47 @@
     <!-- The CTA: End -->
   </div>
 </template>
-<script>
-// This will also work in `<script setup>`
-definePageMeta({
-  layout: "default"
+<script setup>
+import ogImage from "/images/og-dukan-vepaar.png";
+import schema from "@/data/schema";
+useHead({
+  title: "Online Store | Vepaar - Start Selling Online for Free!",
+  meta: [
+    {
+      hid: "description",
+      name: "description",
+      content:
+        "Start your online business with Vepaar for free. Join over 100k+ businesses to sell online, offline, and via social media. Download the Vepaar app to begin your journey!"
+    },
+    {
+      property: "og:title",
+      hid: "og:title",
+      name: "og:title",
+      content: "🛍 Digital Store | Vepaar"
+    },
+    {
+      property: "og:description",
+      hid: "og:description",
+      name: "og:description",
+      content:
+        "Start your online business with Vepaar for free. Join over 100k+ businesses to sell online, offline, and via social media. Download the Vepaar app to begin your journey!"
+    },
+    {
+      hid: "og:image",
+      property: "og:image",
+      content: ogImage
+    }
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://vepaar.com/store/"
+    }
+  ],
+  script: [schema("https://www.vepaar.com/store/")]
 });
+</script>
+<script>
 export default {
   data() {
     return {

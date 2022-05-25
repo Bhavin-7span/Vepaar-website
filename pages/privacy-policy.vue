@@ -14,3 +14,8 @@
     <!-- Privacy Content: End -->
   </div>
 </template>
+<script setup>
+useHead({
+  title: "Vepaar: Privacy and Policy"
+});
+</script>

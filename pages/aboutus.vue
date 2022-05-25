@@ -41,3 +41,43 @@
     <!-- The CTA: End -->
   </div>
 </template>
+<script setup>
+import ogImage from "/images/og-products-vepaar.png";
+import schema from "@/data/schema";
+useHead({
+  title: "About Us | Vepaar",
+  meta: [
+    {
+      hid: "description",
+      name: "description",
+      content:
+        "Vepaar was founded with the idea to support small and medium businesses across the globe to set up their digital store."
+    },
+    {
+      property: "og:title",
+      hid: "og:title",
+      name: "og:title",
+      content: "About Us | Vepaar"
+    },
+    {
+      property: "og:description",
+      hid: "og:description",
+      name: "og:description",
+      content:
+        "Vepaar was founded with the idea to support small and medium businesses across the globe to set up their digital store."
+    },
+    {
+      hid: "og:image",
+      property: "og:image",
+      content: ogImage
+    }
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://vepaar.com/about-us/"
+    }
+  ],
+  script: [schema("https://vepaar.com/about-us/")]
+});
+</script>

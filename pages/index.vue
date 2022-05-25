@@ -89,11 +89,48 @@
     <!-- Clients Logo: End -->
   </div>
 </template>
-<script>
-// This will also work in `<script setup>`
-definePageMeta({
-  layout: "default"
+
+<script setup>
+import ogImage from "/images/og-products-vepaar.png";
+import schema from "@/data/schema";
+useHead({
+  title: "Vepaar: Boost your Online Business with All-In-One App",
+  meta: [
+    {
+      hid: "description",
+      name: "description",
+      content:
+        "Vepaar App to Boost your online business with features like WhatsApp CRM, Online Store, WhatsApp Poll and many more!"
+    },
+    {
+      property: "og:title",
+      hid: "og:title",
+      name: "og:title",
+      content: "Vepaar: Boost your Online Business with All-In-One App"
+    },
+    {
+      property: "og:description",
+      hid: "og:description",
+      name: "og:description",
+      content:
+        "Vepaar App to Boost your online business with features like WhatsApp CRM, Online Store, WhatsApp Poll and many more!"
+    },
+    {
+      hid: "og:image",
+      property: "og:image",
+      content: ogImage
+    }
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://www.vepaar.com/"
+    }
+  ],
+  script: [schema("https://www.vepaar.com/")]
 });
+</script>
+<script>
 export default {
   data() {
     return {

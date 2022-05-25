@@ -46,11 +46,47 @@
     <!-- The CTA: End -->
   </div>
 </template>
-<script>
-// This will also work in `<script setup>`
-definePageMeta({
-  layout: "default"
+<script setup>
+import ogImage from "/images/og-polls-vepaar.png";
+import schema from "@/data/schema";
+useHead({
+  title: "WhatsApp Poll | Vepaar - Create an online Poll or Survey",
+  meta: [
+    {
+      hid: "description",
+      name: "description",
+      content:
+        "Create a poll on WhatsApp via Vepaar. Powered by Official WhatsApp Business APIs. Get customer feedback and engage with your audience via WhatsApp Polls."
+    },
+    {
+      property: "og:title",
+      hid: "og:title",
+      name: "og:title",
+      content: "WhatsApp Poll | Vepaar - Create an online Poll or Survey"
+    },
+    {
+      property: "og:description",
+      hid: "og:description",
+      name: "og:description",
+      content:
+        "Create a poll on WhatsApp via Vepaar. Powered by Official WhatsApp Business APIs. Get customer feedback and engage with your audience via WhatsApp Polls."
+    },
+    {
+      hid: "og:image",
+      property: "og:image",
+      content: ogImage
+    }
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://vepaar.com/poll/"
+    }
+  ],
+  script: [schema("https://www.vepaar.com/poll/")]
 });
+</script>
+<script>
 export default {
   data() {
     return {

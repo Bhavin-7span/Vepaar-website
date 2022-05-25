@@ -38,7 +38,46 @@
     <!-- The CTA: End -->
   </div>
 </template>
-
+<script setup>
+import ogImage from "/images/og-products-vepaar.png";
+import schema from "@/data/schema";
+useHead({
+  title: "Free WhatsApp Business Link Generator | Vepaar",
+  meta: [
+    {
+      hid: "description",
+      name: "description",
+      content:
+        "Generate your WhatsApp Link with a personalized message to get more customers for your online business"
+    },
+    {
+      property: "og:title",
+      hid: "og:title",
+      name: "og:title",
+      content: "Free WhatsApp Business Link Generator | Vepaar"
+    },
+    {
+      property: "og:description",
+      hid: "og:description",
+      name: "og:description",
+      content:
+        "Generate your WhatsApp Link with a personalized message to get more customers for your online business"
+    },
+    {
+      hid: "og:image",
+      property: "og:image",
+      content: ogImage
+    }
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://vepaar.com/whatsapp-link-generator/"
+    }
+  ],
+  script: [schema("https://www.vepaar.com/whatsapp-link-generator/")]
+});
+</script>
 <script>
 export default {
   data() {
